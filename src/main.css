@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;500;900&display=swap');
+
+h1 {
+	@apply leading-none uppercase bg-yellow-50 font-extralight;
+	font-size: 25vw;
+}
+
+a {
+	font-size: 4vw;
+}
+
+a:hover {
+	@apply text-red-500;
+}
