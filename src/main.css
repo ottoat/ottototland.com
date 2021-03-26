@@ -6,11 +6,11 @@
 
 h1 {
 	@apply leading-none uppercase bg-yellow-50 font-extralight;
-	font-size: 25vw;
+	font-size: clamp(4rem, 25vw, 20rem);
 }
 
 a {
-	font-size: 4vw;
+	font-size: clamp(2rem, 4vw, 5rem);
 }
 
 a:hover {
