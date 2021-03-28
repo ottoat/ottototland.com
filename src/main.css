@@ -1,18 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;500;900&display=block');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;400;700&display=block');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 h1 {
-	@apply leading-none uppercase bg-yellow-50 font-extralight;
-	font-size: clamp(4rem, 25vw, 20rem);
+	@apply leading-extra-tight uppercase font-extralight text-right text-yellow transform origin-bottom-left -translate-y-3/100 -rotate-5;
+	font-size: 28vw;
 }
 
-a {
-	font-size: clamp(2rem, 4vw, 5rem);
+h2 {
+	@apply text-4xl md:text-5xl lg:text-7xl xl:text-8xl leading-extra-tight tracking-widest uppercase font-thin;
 }
 
-a:hover {
-	@apply text-red-500;
+section,
+footer {
+	position: relative;
+	width: 100%;
+	z-index: 1;
+}
+
+section:before,
+footer:before {
+	content: '';
+	position: absolute;
+	width: 200%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	transform-origin: top left;
+	transform: translateX(0) rotate(-5deg);
+	z-index: -1;
+	background-color: inherit;
+}
+
+header {
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-image: url(../assets/bg.jpg);
+}
+
+footer {
+	position: relative;
+}
+
+footer p {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+figure {
+	position: relative;
+}
+
+figure>span:before {
+	content: '';
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	top: 0;
+	left: -49%;
+	z-index: -1;
+	background-color: inherit;
+}
+
+figcaption:before {
+	content: '';
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	top: 0;
+	right: -49%;
+	z-index: -1;
+	background-color: inherit;
+}
+
+figcaption svg {
+	@apply text-beige fill-current;
+}
+
+figcaption svg:hover {
+	@apply text-yellow fill-current;
 }
