@@ -17831,10 +17831,24 @@ footer:before {
 }
 
 header {
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-image: url(../assets/bg.jpg);
+  position: relative;
+  height: 90vh;
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    height: 100vh;
+  }
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 footer {

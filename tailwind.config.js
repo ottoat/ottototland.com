@@ -42,7 +42,7 @@ module.exports = {
 				'-5': '-5deg',
 				'5': '5deg'
 			}
-		},
+		}
 	},
 	variants: {
 		extend: {},
