@@ -11,12 +11,12 @@ body {
 }
 
 h1 {
-	@apply leading-extra-tight uppercase font-extralight text-right text-yellow transform origin-bottom-left -translate-y-3/100 -rotate-5;
+	@apply text-right uppercase leading-extra-tight font-extralight text-yellow transform origin-bottom-left -translate-y-3/100 -rotate-5;
 	font-size: 28vw;
 }
 
 h2 {
-	@apply text-4xl md:text-5xl lg:text-7xl xl:text-8xl leading-extra-tight tracking-widest uppercase font-thin;
+	@apply text-4xl font-thin tracking-widest uppercase md:text-5xl lg:text-7xl xl:text-8xl leading-extra-tight;
 }
 
 section,
@@ -85,9 +85,9 @@ figcaption:before {
 }
 
 figcaption svg {
-	@apply text-beige fill-current;
+	@apply fill-current text-beige;
 }
 
 figcaption svg:hover {
-	@apply text-yellow fill-current;
+	@apply fill-current text-yellow;
 }
