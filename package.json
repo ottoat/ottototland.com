@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "node node_modules/postcss-cli/bin/postcss src/main.css -o build/main.css",
+    "serve": "python -m http.server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
