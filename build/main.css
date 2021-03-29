@@ -17855,7 +17855,7 @@ footer {
   position: relative;
 }
 
-footer p {
+footer .attribution {
   position: absolute;
   bottom: 20px;
   right: 20px;
@@ -17897,6 +17897,45 @@ figcaption svg:hover {
   fill: currentColor;
   --tw-text-opacity: 1;
   color: rgba(195, 167, 65, var(--tw-text-opacity));
+}
+
+.container {
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    -moz-column-count: 2;
+         column-count: 2;
+    -moz-column-gap: 3rem;
+         column-gap: 3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    -moz-column-count: 2;
+         column-count: 2;
+    -moz-column-gap: 4rem;
+         column-gap: 4rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    -moz-column-count: 2;
+         column-count: 2;
+    -moz-column-gap: 4rem;
+         column-gap: 4rem;
+  }
+}
+
+@media screen and (min-width: 1536px) {
+  .container {
+    -moz-column-count: 2;
+         column-count: 2;
+    -moz-column-gap: 6rem;
+         column-gap: 6rem;
+  }
 }
 
 @media (min-width: 640px){
