@@ -65,7 +65,7 @@ footer {
 	position: relative;
 }
 
-footer p {
+footer .attribution {
 	position: absolute;
 	bottom: 20px;
 	right: 20px;
@@ -103,4 +103,35 @@ figcaption svg {
 
 figcaption svg:hover {
 	@apply fill-current text-yellow;
+}
+
+.container {
+}
+
+@media screen and (min-width: 768px) {
+	.container {
+		column-count: 2;
+		column-gap: 3rem;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.container {
+		column-count: 2;
+		column-gap: 4rem;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.container {
+		column-count: 2;
+		column-gap: 4rem;
+	}
+}
+
+@media screen and (min-width: 1536px) {
+	.container {
+		column-count: 2;
+		column-gap: 6rem;
+	}
 }
