@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body {
+	max-width: 100vw;
+	overflow-x: hidden;
+}
+
 h1 {
 	@apply leading-extra-tight uppercase font-extralight text-right text-yellow transform origin-bottom-left -translate-y-3/100 -rotate-5;
 	font-size: 28vw;
@@ -23,6 +29,7 @@ footer {
 section:before,
 footer:before {
 	content: '';
+	display: block;
 	position: absolute;
 	width: 200%;
 	height: 100%;
