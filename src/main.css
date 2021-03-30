@@ -19,6 +19,10 @@ h2 {
 	@apply text-4xl font-thin tracking-widest uppercase md:text-5xl lg:text-7xl xl:text-8xl leading-extra-tight;
 }
 
+p a:hover {
+	text-decoration: underline;
+}
+
 section,
 footer {
 	position: relative;
