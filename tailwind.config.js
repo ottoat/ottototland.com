@@ -41,11 +41,19 @@ module.exports = {
 			rotate: {
 				'-5': '-5deg',
 				'5': '5deg'
+			},
+			fill: {
+				'transparent': 'transparent'
+			},
+			strokeWidth: {
+				'6': '6'
 			}
 		}
 	},
 	variants: {
 		extend: {},
 	},
-	plugins: [],
+	plugins: [
+		require('@tailwindcss/aspect-ratio')
+	],
 }
