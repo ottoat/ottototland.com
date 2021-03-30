@@ -17808,6 +17808,10 @@ h2 {
   }
 }
 
+p a:hover {
+  text-decoration: underline;
+}
+
 section,
 footer {
   position: relative;

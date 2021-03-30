@@ -1,6 +1,12 @@
 OttoTotland.com
 ===============
 
+### Installing dev dependencies
+
+```bash
+$ npm install
+```
+
 ### Building
 
 ```bash
