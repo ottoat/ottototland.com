@@ -109,6 +109,14 @@ figcaption svg:hover {
 	@apply fill-current text-yellow;
 }
 
+otto-release[title="Companion"] figcaption svg {
+	@apply fill-current text-sienna;
+}
+
+otto-release[title="Companion"] figcaption svg:hover {
+	@apply fill-current text-sienna-dark;
+}
+
 .container {
 }
 

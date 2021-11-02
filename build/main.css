@@ -1700,6 +1700,11 @@ video {
   border-color: rgba(195, 167, 65, var(--tw-divide-opacity));
 }
 
+.divide-ochre > :not([hidden]) ~ :not([hidden]){
+  --tw-divide-opacity: 1;
+  border-color: rgba(179, 150, 77, var(--tw-divide-opacity));
+}
+
 .divide-white > :not([hidden]) ~ :not([hidden]){
   --tw-divide-opacity: 1;
   border-color: rgba(243, 237, 215, var(--tw-divide-opacity));
@@ -1919,6 +1924,11 @@ video {
   background-color: rgba(195, 167, 65, var(--tw-bg-opacity));
 }
 
+.bg-ochre{
+  --tw-bg-opacity: 1;
+  background-color: rgba(179, 150, 77, var(--tw-bg-opacity));
+}
+
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgba(243, 237, 215, var(--tw-bg-opacity));
@@ -1952,6 +1962,11 @@ video {
 .group:hover .group-hover\:bg-yellow{
   --tw-bg-opacity: 1;
   background-color: rgba(195, 167, 65, var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-ochre{
+  --tw-bg-opacity: 1;
+  background-color: rgba(179, 150, 77, var(--tw-bg-opacity));
 }
 
 .group:hover .group-hover\:bg-white{
@@ -1989,6 +2004,11 @@ video {
   background-color: rgba(195, 167, 65, var(--tw-bg-opacity));
 }
 
+.focus-within\:bg-ochre:focus-within{
+  --tw-bg-opacity: 1;
+  background-color: rgba(179, 150, 77, var(--tw-bg-opacity));
+}
+
 .focus-within\:bg-white:focus-within{
   --tw-bg-opacity: 1;
   background-color: rgba(243, 237, 215, var(--tw-bg-opacity));
@@ -2024,6 +2044,11 @@ video {
   background-color: rgba(195, 167, 65, var(--tw-bg-opacity));
 }
 
+.hover\:bg-ochre:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgba(179, 150, 77, var(--tw-bg-opacity));
+}
+
 .hover\:bg-white:hover{
   --tw-bg-opacity: 1;
   background-color: rgba(243, 237, 215, var(--tw-bg-opacity));
@@ -2057,6 +2082,11 @@ video {
 .focus\:bg-yellow:focus{
   --tw-bg-opacity: 1;
   background-color: rgba(195, 167, 65, var(--tw-bg-opacity));
+}
+
+.focus\:bg-ochre:focus{
+  --tw-bg-opacity: 1;
+  background-color: rgba(179, 150, 77, var(--tw-bg-opacity));
 }
 
 .focus\:bg-white:focus{
@@ -2130,6 +2160,11 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(195, 167, 65, 0));
 }
 
+.from-ochre{
+  --tw-gradient-from: #B3964D;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(179, 150, 77, 0));
+}
+
 .from-white{
   --tw-gradient-from: #F3EDD7;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(243, 237, 215, 0));
@@ -2164,6 +2199,10 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), #C3A741, var(--tw-gradient-to, rgba(195, 167, 65, 0));
 }
 
+.via-ochre{
+  --tw-gradient-stops: var(--tw-gradient-from), #B3964D, var(--tw-gradient-to, rgba(179, 150, 77, 0));
+}
+
 .via-white{
   --tw-gradient-stops: var(--tw-gradient-from), #F3EDD7, var(--tw-gradient-to, rgba(243, 237, 215, 0));
 }
@@ -2190,6 +2229,10 @@ video {
 
 .to-yellow{
   --tw-gradient-to: #C3A741;
+}
+
+.to-ochre{
+  --tw-gradient-to: #B3964D;
 }
 
 .to-white{
@@ -2219,6 +2262,11 @@ video {
 .hover\:from-yellow:hover{
   --tw-gradient-from: #C3A741;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(195, 167, 65, 0));
+}
+
+.hover\:from-ochre:hover{
+  --tw-gradient-from: #B3964D;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(179, 150, 77, 0));
 }
 
 .hover\:from-white:hover{
@@ -2255,6 +2303,10 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), #C3A741, var(--tw-gradient-to, rgba(195, 167, 65, 0));
 }
 
+.hover\:via-ochre:hover{
+  --tw-gradient-stops: var(--tw-gradient-from), #B3964D, var(--tw-gradient-to, rgba(179, 150, 77, 0));
+}
+
 .hover\:via-white:hover{
   --tw-gradient-stops: var(--tw-gradient-from), #F3EDD7, var(--tw-gradient-to, rgba(243, 237, 215, 0));
 }
@@ -2281,6 +2333,10 @@ video {
 
 .hover\:to-yellow:hover{
   --tw-gradient-to: #C3A741;
+}
+
+.hover\:to-ochre:hover{
+  --tw-gradient-to: #B3964D;
 }
 
 .hover\:to-white:hover{
@@ -2310,6 +2366,11 @@ video {
 .focus\:from-yellow:focus{
   --tw-gradient-from: #C3A741;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(195, 167, 65, 0));
+}
+
+.focus\:from-ochre:focus{
+  --tw-gradient-from: #B3964D;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(179, 150, 77, 0));
 }
 
 .focus\:from-white:focus{
@@ -2346,6 +2407,10 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), #C3A741, var(--tw-gradient-to, rgba(195, 167, 65, 0));
 }
 
+.focus\:via-ochre:focus{
+  --tw-gradient-stops: var(--tw-gradient-from), #B3964D, var(--tw-gradient-to, rgba(179, 150, 77, 0));
+}
+
 .focus\:via-white:focus{
   --tw-gradient-stops: var(--tw-gradient-from), #F3EDD7, var(--tw-gradient-to, rgba(243, 237, 215, 0));
 }
@@ -2372,6 +2437,10 @@ video {
 
 .focus\:to-yellow:focus{
   --tw-gradient-to: #C3A741;
+}
+
+.focus\:to-ochre:focus{
+  --tw-gradient-to: #B3964D;
 }
 
 .focus\:to-white:focus{
@@ -2783,6 +2852,11 @@ video {
   border-color: rgba(195, 167, 65, var(--tw-border-opacity));
 }
 
+.border-ochre{
+  --tw-border-opacity: 1;
+  border-color: rgba(179, 150, 77, var(--tw-border-opacity));
+}
+
 .border-white{
   --tw-border-opacity: 1;
   border-color: rgba(243, 237, 215, var(--tw-border-opacity));
@@ -2816,6 +2890,11 @@ video {
 .group:hover .group-hover\:border-yellow{
   --tw-border-opacity: 1;
   border-color: rgba(195, 167, 65, var(--tw-border-opacity));
+}
+
+.group:hover .group-hover\:border-ochre{
+  --tw-border-opacity: 1;
+  border-color: rgba(179, 150, 77, var(--tw-border-opacity));
 }
 
 .group:hover .group-hover\:border-white{
@@ -2853,6 +2932,11 @@ video {
   border-color: rgba(195, 167, 65, var(--tw-border-opacity));
 }
 
+.focus-within\:border-ochre:focus-within{
+  --tw-border-opacity: 1;
+  border-color: rgba(179, 150, 77, var(--tw-border-opacity));
+}
+
 .focus-within\:border-white:focus-within{
   --tw-border-opacity: 1;
   border-color: rgba(243, 237, 215, var(--tw-border-opacity));
@@ -2888,6 +2972,11 @@ video {
   border-color: rgba(195, 167, 65, var(--tw-border-opacity));
 }
 
+.hover\:border-ochre:hover{
+  --tw-border-opacity: 1;
+  border-color: rgba(179, 150, 77, var(--tw-border-opacity));
+}
+
 .hover\:border-white:hover{
   --tw-border-opacity: 1;
   border-color: rgba(243, 237, 215, var(--tw-border-opacity));
@@ -2921,6 +3010,11 @@ video {
 .focus\:border-yellow:focus{
   --tw-border-opacity: 1;
   border-color: rgba(195, 167, 65, var(--tw-border-opacity));
+}
+
+.focus\:border-ochre:focus{
+  --tw-border-opacity: 1;
+  border-color: rgba(179, 150, 77, var(--tw-border-opacity));
 }
 
 .focus\:border-white:focus{
@@ -8559,6 +8653,21 @@ video {
   color: rgba(195, 167, 65, var(--tw-placeholder-opacity));
 }
 
+.placeholder-ochre::-moz-placeholder{
+  --tw-placeholder-opacity: 1;
+  color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
+}
+
+.placeholder-ochre:-ms-input-placeholder{
+  --tw-placeholder-opacity: 1;
+  color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
+}
+
+.placeholder-ochre::placeholder{
+  --tw-placeholder-opacity: 1;
+  color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
+}
+
 .placeholder-white::-moz-placeholder{
   --tw-placeholder-opacity: 1;
   color: rgba(243, 237, 215, var(--tw-placeholder-opacity));
@@ -8662,6 +8771,21 @@ video {
 .focus\:placeholder-yellow:focus::placeholder{
   --tw-placeholder-opacity: 1;
   color: rgba(195, 167, 65, var(--tw-placeholder-opacity));
+}
+
+.focus\:placeholder-ochre:focus::-moz-placeholder{
+  --tw-placeholder-opacity: 1;
+  color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
+}
+
+.focus\:placeholder-ochre:focus:-ms-input-placeholder{
+  --tw-placeholder-opacity: 1;
+  color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
+}
+
+.focus\:placeholder-ochre:focus::placeholder{
+  --tw-placeholder-opacity: 1;
+  color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
 }
 
 .focus\:placeholder-white:focus::-moz-placeholder{
@@ -12300,6 +12424,10 @@ video {
   --tw-ring-offset-color: #C3A741;
 }
 
+.ring-offset-ochre{
+  --tw-ring-offset-color: #B3964D;
+}
+
 .ring-offset-white{
   --tw-ring-offset-color: #F3EDD7;
 }
@@ -12328,6 +12456,10 @@ video {
   --tw-ring-offset-color: #C3A741;
 }
 
+.focus-within\:ring-offset-ochre:focus-within{
+  --tw-ring-offset-color: #B3964D;
+}
+
 .focus-within\:ring-offset-white:focus-within{
   --tw-ring-offset-color: #F3EDD7;
 }
@@ -12354,6 +12486,10 @@ video {
 
 .focus\:ring-offset-yellow:focus{
   --tw-ring-offset-color: #C3A741;
+}
+
+.focus\:ring-offset-ochre:focus{
+  --tw-ring-offset-color: #B3964D;
 }
 
 .focus\:ring-offset-white:focus{
@@ -12445,6 +12581,11 @@ video {
   --tw-ring-color: rgba(195, 167, 65, var(--tw-ring-opacity));
 }
 
+.ring-ochre{
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgba(179, 150, 77, var(--tw-ring-opacity));
+}
+
 .ring-white{
   --tw-ring-opacity: 1;
   --tw-ring-color: rgba(243, 237, 215, var(--tw-ring-opacity));
@@ -12480,6 +12621,11 @@ video {
   --tw-ring-color: rgba(195, 167, 65, var(--tw-ring-opacity));
 }
 
+.focus-within\:ring-ochre:focus-within{
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgba(179, 150, 77, var(--tw-ring-opacity));
+}
+
 .focus-within\:ring-white:focus-within{
   --tw-ring-opacity: 1;
   --tw-ring-color: rgba(243, 237, 215, var(--tw-ring-opacity));
@@ -12513,6 +12659,11 @@ video {
 .focus\:ring-yellow:focus{
   --tw-ring-opacity: 1;
   --tw-ring-color: rgba(195, 167, 65, var(--tw-ring-opacity));
+}
+
+.focus\:ring-ochre:focus{
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgba(179, 150, 77, var(--tw-ring-opacity));
 }
 
 .focus\:ring-white:focus{
@@ -12782,6 +12933,11 @@ video {
   color: rgba(195, 167, 65, var(--tw-text-opacity));
 }
 
+.text-ochre{
+  --tw-text-opacity: 1;
+  color: rgba(179, 150, 77, var(--tw-text-opacity));
+}
+
 .text-white{
   --tw-text-opacity: 1;
   color: rgba(243, 237, 215, var(--tw-text-opacity));
@@ -12815,6 +12971,11 @@ video {
 .group:hover .group-hover\:text-yellow{
   --tw-text-opacity: 1;
   color: rgba(195, 167, 65, var(--tw-text-opacity));
+}
+
+.group:hover .group-hover\:text-ochre{
+  --tw-text-opacity: 1;
+  color: rgba(179, 150, 77, var(--tw-text-opacity));
 }
 
 .group:hover .group-hover\:text-white{
@@ -12852,6 +13013,11 @@ video {
   color: rgba(195, 167, 65, var(--tw-text-opacity));
 }
 
+.focus-within\:text-ochre:focus-within{
+  --tw-text-opacity: 1;
+  color: rgba(179, 150, 77, var(--tw-text-opacity));
+}
+
 .focus-within\:text-white:focus-within{
   --tw-text-opacity: 1;
   color: rgba(243, 237, 215, var(--tw-text-opacity));
@@ -12887,6 +13053,11 @@ video {
   color: rgba(195, 167, 65, var(--tw-text-opacity));
 }
 
+.hover\:text-ochre:hover{
+  --tw-text-opacity: 1;
+  color: rgba(179, 150, 77, var(--tw-text-opacity));
+}
+
 .hover\:text-white:hover{
   --tw-text-opacity: 1;
   color: rgba(243, 237, 215, var(--tw-text-opacity));
@@ -12920,6 +13091,11 @@ video {
 .focus\:text-yellow:focus{
   --tw-text-opacity: 1;
   color: rgba(195, 167, 65, var(--tw-text-opacity));
+}
+
+.focus\:text-ochre:focus{
+  --tw-text-opacity: 1;
+  color: rgba(179, 150, 77, var(--tw-text-opacity));
 }
 
 .focus\:text-white:focus{
@@ -18099,6 +18275,18 @@ figcaption svg:hover {
   color: rgba(195, 167, 65, var(--tw-text-opacity));
 }
 
+otto-release[title="Companion"] figcaption svg {
+  fill: currentColor;
+  --tw-text-opacity: 1;
+  color: rgba(94, 54, 48, var(--tw-text-opacity));
+}
+
+otto-release[title="Companion"] figcaption svg:hover {
+  fill: currentColor;
+  --tw-text-opacity: 1;
+  color: rgba(24, 14, 12, var(--tw-text-opacity));
+}
+
 .container {
 }
 
@@ -19286,6 +19474,11 @@ figcaption svg:hover {
     border-color: rgba(195, 167, 65, var(--tw-divide-opacity));
   }
 
+  .sm\:divide-ochre > :not([hidden]) ~ :not([hidden]){
+    --tw-divide-opacity: 1;
+    border-color: rgba(179, 150, 77, var(--tw-divide-opacity));
+  }
+
   .sm\:divide-white > :not([hidden]) ~ :not([hidden]){
     --tw-divide-opacity: 1;
     border-color: rgba(243, 237, 215, var(--tw-divide-opacity));
@@ -19505,6 +19698,11 @@ figcaption svg:hover {
     background-color: rgba(195, 167, 65, var(--tw-bg-opacity));
   }
 
+  .sm\:bg-ochre{
+    --tw-bg-opacity: 1;
+    background-color: rgba(179, 150, 77, var(--tw-bg-opacity));
+  }
+
   .sm\:bg-white{
     --tw-bg-opacity: 1;
     background-color: rgba(243, 237, 215, var(--tw-bg-opacity));
@@ -19538,6 +19736,11 @@ figcaption svg:hover {
   .group:hover .sm\:group-hover\:bg-yellow{
     --tw-bg-opacity: 1;
     background-color: rgba(195, 167, 65, var(--tw-bg-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:bg-ochre{
+    --tw-bg-opacity: 1;
+    background-color: rgba(179, 150, 77, var(--tw-bg-opacity));
   }
 
   .group:hover .sm\:group-hover\:bg-white{
@@ -19575,6 +19778,11 @@ figcaption svg:hover {
     background-color: rgba(195, 167, 65, var(--tw-bg-opacity));
   }
 
+  .sm\:focus-within\:bg-ochre:focus-within{
+    --tw-bg-opacity: 1;
+    background-color: rgba(179, 150, 77, var(--tw-bg-opacity));
+  }
+
   .sm\:focus-within\:bg-white:focus-within{
     --tw-bg-opacity: 1;
     background-color: rgba(243, 237, 215, var(--tw-bg-opacity));
@@ -19610,6 +19818,11 @@ figcaption svg:hover {
     background-color: rgba(195, 167, 65, var(--tw-bg-opacity));
   }
 
+  .sm\:hover\:bg-ochre:hover{
+    --tw-bg-opacity: 1;
+    background-color: rgba(179, 150, 77, var(--tw-bg-opacity));
+  }
+
   .sm\:hover\:bg-white:hover{
     --tw-bg-opacity: 1;
     background-color: rgba(243, 237, 215, var(--tw-bg-opacity));
@@ -19643,6 +19856,11 @@ figcaption svg:hover {
   .sm\:focus\:bg-yellow:focus{
     --tw-bg-opacity: 1;
     background-color: rgba(195, 167, 65, var(--tw-bg-opacity));
+  }
+
+  .sm\:focus\:bg-ochre:focus{
+    --tw-bg-opacity: 1;
+    background-color: rgba(179, 150, 77, var(--tw-bg-opacity));
   }
 
   .sm\:focus\:bg-white:focus{
@@ -19716,6 +19934,11 @@ figcaption svg:hover {
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(195, 167, 65, 0));
   }
 
+  .sm\:from-ochre{
+    --tw-gradient-from: #B3964D;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(179, 150, 77, 0));
+  }
+
   .sm\:from-white{
     --tw-gradient-from: #F3EDD7;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(243, 237, 215, 0));
@@ -19750,6 +19973,10 @@ figcaption svg:hover {
     --tw-gradient-stops: var(--tw-gradient-from), #C3A741, var(--tw-gradient-to, rgba(195, 167, 65, 0));
   }
 
+  .sm\:via-ochre{
+    --tw-gradient-stops: var(--tw-gradient-from), #B3964D, var(--tw-gradient-to, rgba(179, 150, 77, 0));
+  }
+
   .sm\:via-white{
     --tw-gradient-stops: var(--tw-gradient-from), #F3EDD7, var(--tw-gradient-to, rgba(243, 237, 215, 0));
   }
@@ -19776,6 +20003,10 @@ figcaption svg:hover {
 
   .sm\:to-yellow{
     --tw-gradient-to: #C3A741;
+  }
+
+  .sm\:to-ochre{
+    --tw-gradient-to: #B3964D;
   }
 
   .sm\:to-white{
@@ -19805,6 +20036,11 @@ figcaption svg:hover {
   .sm\:hover\:from-yellow:hover{
     --tw-gradient-from: #C3A741;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(195, 167, 65, 0));
+  }
+
+  .sm\:hover\:from-ochre:hover{
+    --tw-gradient-from: #B3964D;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(179, 150, 77, 0));
   }
 
   .sm\:hover\:from-white:hover{
@@ -19841,6 +20077,10 @@ figcaption svg:hover {
     --tw-gradient-stops: var(--tw-gradient-from), #C3A741, var(--tw-gradient-to, rgba(195, 167, 65, 0));
   }
 
+  .sm\:hover\:via-ochre:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), #B3964D, var(--tw-gradient-to, rgba(179, 150, 77, 0));
+  }
+
   .sm\:hover\:via-white:hover{
     --tw-gradient-stops: var(--tw-gradient-from), #F3EDD7, var(--tw-gradient-to, rgba(243, 237, 215, 0));
   }
@@ -19867,6 +20107,10 @@ figcaption svg:hover {
 
   .sm\:hover\:to-yellow:hover{
     --tw-gradient-to: #C3A741;
+  }
+
+  .sm\:hover\:to-ochre:hover{
+    --tw-gradient-to: #B3964D;
   }
 
   .sm\:hover\:to-white:hover{
@@ -19896,6 +20140,11 @@ figcaption svg:hover {
   .sm\:focus\:from-yellow:focus{
     --tw-gradient-from: #C3A741;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(195, 167, 65, 0));
+  }
+
+  .sm\:focus\:from-ochre:focus{
+    --tw-gradient-from: #B3964D;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(179, 150, 77, 0));
   }
 
   .sm\:focus\:from-white:focus{
@@ -19932,6 +20181,10 @@ figcaption svg:hover {
     --tw-gradient-stops: var(--tw-gradient-from), #C3A741, var(--tw-gradient-to, rgba(195, 167, 65, 0));
   }
 
+  .sm\:focus\:via-ochre:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), #B3964D, var(--tw-gradient-to, rgba(179, 150, 77, 0));
+  }
+
   .sm\:focus\:via-white:focus{
     --tw-gradient-stops: var(--tw-gradient-from), #F3EDD7, var(--tw-gradient-to, rgba(243, 237, 215, 0));
   }
@@ -19958,6 +20211,10 @@ figcaption svg:hover {
 
   .sm\:focus\:to-yellow:focus{
     --tw-gradient-to: #C3A741;
+  }
+
+  .sm\:focus\:to-ochre:focus{
+    --tw-gradient-to: #B3964D;
   }
 
   .sm\:focus\:to-white:focus{
@@ -20369,6 +20626,11 @@ figcaption svg:hover {
     border-color: rgba(195, 167, 65, var(--tw-border-opacity));
   }
 
+  .sm\:border-ochre{
+    --tw-border-opacity: 1;
+    border-color: rgba(179, 150, 77, var(--tw-border-opacity));
+  }
+
   .sm\:border-white{
     --tw-border-opacity: 1;
     border-color: rgba(243, 237, 215, var(--tw-border-opacity));
@@ -20402,6 +20664,11 @@ figcaption svg:hover {
   .group:hover .sm\:group-hover\:border-yellow{
     --tw-border-opacity: 1;
     border-color: rgba(195, 167, 65, var(--tw-border-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:border-ochre{
+    --tw-border-opacity: 1;
+    border-color: rgba(179, 150, 77, var(--tw-border-opacity));
   }
 
   .group:hover .sm\:group-hover\:border-white{
@@ -20439,6 +20706,11 @@ figcaption svg:hover {
     border-color: rgba(195, 167, 65, var(--tw-border-opacity));
   }
 
+  .sm\:focus-within\:border-ochre:focus-within{
+    --tw-border-opacity: 1;
+    border-color: rgba(179, 150, 77, var(--tw-border-opacity));
+  }
+
   .sm\:focus-within\:border-white:focus-within{
     --tw-border-opacity: 1;
     border-color: rgba(243, 237, 215, var(--tw-border-opacity));
@@ -20474,6 +20746,11 @@ figcaption svg:hover {
     border-color: rgba(195, 167, 65, var(--tw-border-opacity));
   }
 
+  .sm\:hover\:border-ochre:hover{
+    --tw-border-opacity: 1;
+    border-color: rgba(179, 150, 77, var(--tw-border-opacity));
+  }
+
   .sm\:hover\:border-white:hover{
     --tw-border-opacity: 1;
     border-color: rgba(243, 237, 215, var(--tw-border-opacity));
@@ -20507,6 +20784,11 @@ figcaption svg:hover {
   .sm\:focus\:border-yellow:focus{
     --tw-border-opacity: 1;
     border-color: rgba(195, 167, 65, var(--tw-border-opacity));
+  }
+
+  .sm\:focus\:border-ochre:focus{
+    --tw-border-opacity: 1;
+    border-color: rgba(179, 150, 77, var(--tw-border-opacity));
   }
 
   .sm\:focus\:border-white:focus{
@@ -26145,6 +26427,21 @@ figcaption svg:hover {
     color: rgba(195, 167, 65, var(--tw-placeholder-opacity));
   }
 
+  .sm\:placeholder-ochre::-moz-placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
+  }
+
+  .sm\:placeholder-ochre:-ms-input-placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
+  }
+
+  .sm\:placeholder-ochre::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
+  }
+
   .sm\:placeholder-white::-moz-placeholder{
     --tw-placeholder-opacity: 1;
     color: rgba(243, 237, 215, var(--tw-placeholder-opacity));
@@ -26248,6 +26545,21 @@ figcaption svg:hover {
   .sm\:focus\:placeholder-yellow:focus::placeholder{
     --tw-placeholder-opacity: 1;
     color: rgba(195, 167, 65, var(--tw-placeholder-opacity));
+  }
+
+  .sm\:focus\:placeholder-ochre:focus::-moz-placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
+  }
+
+  .sm\:focus\:placeholder-ochre:focus:-ms-input-placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
+  }
+
+  .sm\:focus\:placeholder-ochre:focus::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
   }
 
   .sm\:focus\:placeholder-white:focus::-moz-placeholder{
@@ -29873,6 +30185,10 @@ figcaption svg:hover {
     --tw-ring-offset-color: #C3A741;
   }
 
+  .sm\:ring-offset-ochre{
+    --tw-ring-offset-color: #B3964D;
+  }
+
   .sm\:ring-offset-white{
     --tw-ring-offset-color: #F3EDD7;
   }
@@ -29901,6 +30217,10 @@ figcaption svg:hover {
     --tw-ring-offset-color: #C3A741;
   }
 
+  .sm\:focus-within\:ring-offset-ochre:focus-within{
+    --tw-ring-offset-color: #B3964D;
+  }
+
   .sm\:focus-within\:ring-offset-white:focus-within{
     --tw-ring-offset-color: #F3EDD7;
   }
@@ -29927,6 +30247,10 @@ figcaption svg:hover {
 
   .sm\:focus\:ring-offset-yellow:focus{
     --tw-ring-offset-color: #C3A741;
+  }
+
+  .sm\:focus\:ring-offset-ochre:focus{
+    --tw-ring-offset-color: #B3964D;
   }
 
   .sm\:focus\:ring-offset-white:focus{
@@ -30018,6 +30342,11 @@ figcaption svg:hover {
     --tw-ring-color: rgba(195, 167, 65, var(--tw-ring-opacity));
   }
 
+  .sm\:ring-ochre{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(179, 150, 77, var(--tw-ring-opacity));
+  }
+
   .sm\:ring-white{
     --tw-ring-opacity: 1;
     --tw-ring-color: rgba(243, 237, 215, var(--tw-ring-opacity));
@@ -30053,6 +30382,11 @@ figcaption svg:hover {
     --tw-ring-color: rgba(195, 167, 65, var(--tw-ring-opacity));
   }
 
+  .sm\:focus-within\:ring-ochre:focus-within{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(179, 150, 77, var(--tw-ring-opacity));
+  }
+
   .sm\:focus-within\:ring-white:focus-within{
     --tw-ring-opacity: 1;
     --tw-ring-color: rgba(243, 237, 215, var(--tw-ring-opacity));
@@ -30086,6 +30420,11 @@ figcaption svg:hover {
   .sm\:focus\:ring-yellow:focus{
     --tw-ring-opacity: 1;
     --tw-ring-color: rgba(195, 167, 65, var(--tw-ring-opacity));
+  }
+
+  .sm\:focus\:ring-ochre:focus{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(179, 150, 77, var(--tw-ring-opacity));
   }
 
   .sm\:focus\:ring-white:focus{
@@ -30355,6 +30694,11 @@ figcaption svg:hover {
     color: rgba(195, 167, 65, var(--tw-text-opacity));
   }
 
+  .sm\:text-ochre{
+    --tw-text-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-text-opacity));
+  }
+
   .sm\:text-white{
     --tw-text-opacity: 1;
     color: rgba(243, 237, 215, var(--tw-text-opacity));
@@ -30388,6 +30732,11 @@ figcaption svg:hover {
   .group:hover .sm\:group-hover\:text-yellow{
     --tw-text-opacity: 1;
     color: rgba(195, 167, 65, var(--tw-text-opacity));
+  }
+
+  .group:hover .sm\:group-hover\:text-ochre{
+    --tw-text-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-text-opacity));
   }
 
   .group:hover .sm\:group-hover\:text-white{
@@ -30425,6 +30774,11 @@ figcaption svg:hover {
     color: rgba(195, 167, 65, var(--tw-text-opacity));
   }
 
+  .sm\:focus-within\:text-ochre:focus-within{
+    --tw-text-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-text-opacity));
+  }
+
   .sm\:focus-within\:text-white:focus-within{
     --tw-text-opacity: 1;
     color: rgba(243, 237, 215, var(--tw-text-opacity));
@@ -30460,6 +30814,11 @@ figcaption svg:hover {
     color: rgba(195, 167, 65, var(--tw-text-opacity));
   }
 
+  .sm\:hover\:text-ochre:hover{
+    --tw-text-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-text-opacity));
+  }
+
   .sm\:hover\:text-white:hover{
     --tw-text-opacity: 1;
     color: rgba(243, 237, 215, var(--tw-text-opacity));
@@ -30493,6 +30852,11 @@ figcaption svg:hover {
   .sm\:focus\:text-yellow:focus{
     --tw-text-opacity: 1;
     color: rgba(195, 167, 65, var(--tw-text-opacity));
+  }
+
+  .sm\:focus\:text-ochre:focus{
+    --tw-text-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-text-opacity));
   }
 
   .sm\:focus\:text-white:focus{
@@ -36603,6 +36967,11 @@ figcaption svg:hover {
     border-color: rgba(195, 167, 65, var(--tw-divide-opacity));
   }
 
+  .md\:divide-ochre > :not([hidden]) ~ :not([hidden]){
+    --tw-divide-opacity: 1;
+    border-color: rgba(179, 150, 77, var(--tw-divide-opacity));
+  }
+
   .md\:divide-white > :not([hidden]) ~ :not([hidden]){
     --tw-divide-opacity: 1;
     border-color: rgba(243, 237, 215, var(--tw-divide-opacity));
@@ -36822,6 +37191,11 @@ figcaption svg:hover {
     background-color: rgba(195, 167, 65, var(--tw-bg-opacity));
   }
 
+  .md\:bg-ochre{
+    --tw-bg-opacity: 1;
+    background-color: rgba(179, 150, 77, var(--tw-bg-opacity));
+  }
+
   .md\:bg-white{
     --tw-bg-opacity: 1;
     background-color: rgba(243, 237, 215, var(--tw-bg-opacity));
@@ -36855,6 +37229,11 @@ figcaption svg:hover {
   .group:hover .md\:group-hover\:bg-yellow{
     --tw-bg-opacity: 1;
     background-color: rgba(195, 167, 65, var(--tw-bg-opacity));
+  }
+
+  .group:hover .md\:group-hover\:bg-ochre{
+    --tw-bg-opacity: 1;
+    background-color: rgba(179, 150, 77, var(--tw-bg-opacity));
   }
 
   .group:hover .md\:group-hover\:bg-white{
@@ -36892,6 +37271,11 @@ figcaption svg:hover {
     background-color: rgba(195, 167, 65, var(--tw-bg-opacity));
   }
 
+  .md\:focus-within\:bg-ochre:focus-within{
+    --tw-bg-opacity: 1;
+    background-color: rgba(179, 150, 77, var(--tw-bg-opacity));
+  }
+
   .md\:focus-within\:bg-white:focus-within{
     --tw-bg-opacity: 1;
     background-color: rgba(243, 237, 215, var(--tw-bg-opacity));
@@ -36927,6 +37311,11 @@ figcaption svg:hover {
     background-color: rgba(195, 167, 65, var(--tw-bg-opacity));
   }
 
+  .md\:hover\:bg-ochre:hover{
+    --tw-bg-opacity: 1;
+    background-color: rgba(179, 150, 77, var(--tw-bg-opacity));
+  }
+
   .md\:hover\:bg-white:hover{
     --tw-bg-opacity: 1;
     background-color: rgba(243, 237, 215, var(--tw-bg-opacity));
@@ -36960,6 +37349,11 @@ figcaption svg:hover {
   .md\:focus\:bg-yellow:focus{
     --tw-bg-opacity: 1;
     background-color: rgba(195, 167, 65, var(--tw-bg-opacity));
+  }
+
+  .md\:focus\:bg-ochre:focus{
+    --tw-bg-opacity: 1;
+    background-color: rgba(179, 150, 77, var(--tw-bg-opacity));
   }
 
   .md\:focus\:bg-white:focus{
@@ -37033,6 +37427,11 @@ figcaption svg:hover {
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(195, 167, 65, 0));
   }
 
+  .md\:from-ochre{
+    --tw-gradient-from: #B3964D;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(179, 150, 77, 0));
+  }
+
   .md\:from-white{
     --tw-gradient-from: #F3EDD7;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(243, 237, 215, 0));
@@ -37067,6 +37466,10 @@ figcaption svg:hover {
     --tw-gradient-stops: var(--tw-gradient-from), #C3A741, var(--tw-gradient-to, rgba(195, 167, 65, 0));
   }
 
+  .md\:via-ochre{
+    --tw-gradient-stops: var(--tw-gradient-from), #B3964D, var(--tw-gradient-to, rgba(179, 150, 77, 0));
+  }
+
   .md\:via-white{
     --tw-gradient-stops: var(--tw-gradient-from), #F3EDD7, var(--tw-gradient-to, rgba(243, 237, 215, 0));
   }
@@ -37093,6 +37496,10 @@ figcaption svg:hover {
 
   .md\:to-yellow{
     --tw-gradient-to: #C3A741;
+  }
+
+  .md\:to-ochre{
+    --tw-gradient-to: #B3964D;
   }
 
   .md\:to-white{
@@ -37122,6 +37529,11 @@ figcaption svg:hover {
   .md\:hover\:from-yellow:hover{
     --tw-gradient-from: #C3A741;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(195, 167, 65, 0));
+  }
+
+  .md\:hover\:from-ochre:hover{
+    --tw-gradient-from: #B3964D;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(179, 150, 77, 0));
   }
 
   .md\:hover\:from-white:hover{
@@ -37158,6 +37570,10 @@ figcaption svg:hover {
     --tw-gradient-stops: var(--tw-gradient-from), #C3A741, var(--tw-gradient-to, rgba(195, 167, 65, 0));
   }
 
+  .md\:hover\:via-ochre:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), #B3964D, var(--tw-gradient-to, rgba(179, 150, 77, 0));
+  }
+
   .md\:hover\:via-white:hover{
     --tw-gradient-stops: var(--tw-gradient-from), #F3EDD7, var(--tw-gradient-to, rgba(243, 237, 215, 0));
   }
@@ -37184,6 +37600,10 @@ figcaption svg:hover {
 
   .md\:hover\:to-yellow:hover{
     --tw-gradient-to: #C3A741;
+  }
+
+  .md\:hover\:to-ochre:hover{
+    --tw-gradient-to: #B3964D;
   }
 
   .md\:hover\:to-white:hover{
@@ -37213,6 +37633,11 @@ figcaption svg:hover {
   .md\:focus\:from-yellow:focus{
     --tw-gradient-from: #C3A741;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(195, 167, 65, 0));
+  }
+
+  .md\:focus\:from-ochre:focus{
+    --tw-gradient-from: #B3964D;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(179, 150, 77, 0));
   }
 
   .md\:focus\:from-white:focus{
@@ -37249,6 +37674,10 @@ figcaption svg:hover {
     --tw-gradient-stops: var(--tw-gradient-from), #C3A741, var(--tw-gradient-to, rgba(195, 167, 65, 0));
   }
 
+  .md\:focus\:via-ochre:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), #B3964D, var(--tw-gradient-to, rgba(179, 150, 77, 0));
+  }
+
   .md\:focus\:via-white:focus{
     --tw-gradient-stops: var(--tw-gradient-from), #F3EDD7, var(--tw-gradient-to, rgba(243, 237, 215, 0));
   }
@@ -37275,6 +37704,10 @@ figcaption svg:hover {
 
   .md\:focus\:to-yellow:focus{
     --tw-gradient-to: #C3A741;
+  }
+
+  .md\:focus\:to-ochre:focus{
+    --tw-gradient-to: #B3964D;
   }
 
   .md\:focus\:to-white:focus{
@@ -37686,6 +38119,11 @@ figcaption svg:hover {
     border-color: rgba(195, 167, 65, var(--tw-border-opacity));
   }
 
+  .md\:border-ochre{
+    --tw-border-opacity: 1;
+    border-color: rgba(179, 150, 77, var(--tw-border-opacity));
+  }
+
   .md\:border-white{
     --tw-border-opacity: 1;
     border-color: rgba(243, 237, 215, var(--tw-border-opacity));
@@ -37719,6 +38157,11 @@ figcaption svg:hover {
   .group:hover .md\:group-hover\:border-yellow{
     --tw-border-opacity: 1;
     border-color: rgba(195, 167, 65, var(--tw-border-opacity));
+  }
+
+  .group:hover .md\:group-hover\:border-ochre{
+    --tw-border-opacity: 1;
+    border-color: rgba(179, 150, 77, var(--tw-border-opacity));
   }
 
   .group:hover .md\:group-hover\:border-white{
@@ -37756,6 +38199,11 @@ figcaption svg:hover {
     border-color: rgba(195, 167, 65, var(--tw-border-opacity));
   }
 
+  .md\:focus-within\:border-ochre:focus-within{
+    --tw-border-opacity: 1;
+    border-color: rgba(179, 150, 77, var(--tw-border-opacity));
+  }
+
   .md\:focus-within\:border-white:focus-within{
     --tw-border-opacity: 1;
     border-color: rgba(243, 237, 215, var(--tw-border-opacity));
@@ -37791,6 +38239,11 @@ figcaption svg:hover {
     border-color: rgba(195, 167, 65, var(--tw-border-opacity));
   }
 
+  .md\:hover\:border-ochre:hover{
+    --tw-border-opacity: 1;
+    border-color: rgba(179, 150, 77, var(--tw-border-opacity));
+  }
+
   .md\:hover\:border-white:hover{
     --tw-border-opacity: 1;
     border-color: rgba(243, 237, 215, var(--tw-border-opacity));
@@ -37824,6 +38277,11 @@ figcaption svg:hover {
   .md\:focus\:border-yellow:focus{
     --tw-border-opacity: 1;
     border-color: rgba(195, 167, 65, var(--tw-border-opacity));
+  }
+
+  .md\:focus\:border-ochre:focus{
+    --tw-border-opacity: 1;
+    border-color: rgba(179, 150, 77, var(--tw-border-opacity));
   }
 
   .md\:focus\:border-white:focus{
@@ -43462,6 +43920,21 @@ figcaption svg:hover {
     color: rgba(195, 167, 65, var(--tw-placeholder-opacity));
   }
 
+  .md\:placeholder-ochre::-moz-placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
+  }
+
+  .md\:placeholder-ochre:-ms-input-placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
+  }
+
+  .md\:placeholder-ochre::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
+  }
+
   .md\:placeholder-white::-moz-placeholder{
     --tw-placeholder-opacity: 1;
     color: rgba(243, 237, 215, var(--tw-placeholder-opacity));
@@ -43565,6 +44038,21 @@ figcaption svg:hover {
   .md\:focus\:placeholder-yellow:focus::placeholder{
     --tw-placeholder-opacity: 1;
     color: rgba(195, 167, 65, var(--tw-placeholder-opacity));
+  }
+
+  .md\:focus\:placeholder-ochre:focus::-moz-placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
+  }
+
+  .md\:focus\:placeholder-ochre:focus:-ms-input-placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
+  }
+
+  .md\:focus\:placeholder-ochre:focus::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
   }
 
   .md\:focus\:placeholder-white:focus::-moz-placeholder{
@@ -47190,6 +47678,10 @@ figcaption svg:hover {
     --tw-ring-offset-color: #C3A741;
   }
 
+  .md\:ring-offset-ochre{
+    --tw-ring-offset-color: #B3964D;
+  }
+
   .md\:ring-offset-white{
     --tw-ring-offset-color: #F3EDD7;
   }
@@ -47218,6 +47710,10 @@ figcaption svg:hover {
     --tw-ring-offset-color: #C3A741;
   }
 
+  .md\:focus-within\:ring-offset-ochre:focus-within{
+    --tw-ring-offset-color: #B3964D;
+  }
+
   .md\:focus-within\:ring-offset-white:focus-within{
     --tw-ring-offset-color: #F3EDD7;
   }
@@ -47244,6 +47740,10 @@ figcaption svg:hover {
 
   .md\:focus\:ring-offset-yellow:focus{
     --tw-ring-offset-color: #C3A741;
+  }
+
+  .md\:focus\:ring-offset-ochre:focus{
+    --tw-ring-offset-color: #B3964D;
   }
 
   .md\:focus\:ring-offset-white:focus{
@@ -47335,6 +47835,11 @@ figcaption svg:hover {
     --tw-ring-color: rgba(195, 167, 65, var(--tw-ring-opacity));
   }
 
+  .md\:ring-ochre{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(179, 150, 77, var(--tw-ring-opacity));
+  }
+
   .md\:ring-white{
     --tw-ring-opacity: 1;
     --tw-ring-color: rgba(243, 237, 215, var(--tw-ring-opacity));
@@ -47370,6 +47875,11 @@ figcaption svg:hover {
     --tw-ring-color: rgba(195, 167, 65, var(--tw-ring-opacity));
   }
 
+  .md\:focus-within\:ring-ochre:focus-within{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(179, 150, 77, var(--tw-ring-opacity));
+  }
+
   .md\:focus-within\:ring-white:focus-within{
     --tw-ring-opacity: 1;
     --tw-ring-color: rgba(243, 237, 215, var(--tw-ring-opacity));
@@ -47403,6 +47913,11 @@ figcaption svg:hover {
   .md\:focus\:ring-yellow:focus{
     --tw-ring-opacity: 1;
     --tw-ring-color: rgba(195, 167, 65, var(--tw-ring-opacity));
+  }
+
+  .md\:focus\:ring-ochre:focus{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(179, 150, 77, var(--tw-ring-opacity));
   }
 
   .md\:focus\:ring-white:focus{
@@ -47672,6 +48187,11 @@ figcaption svg:hover {
     color: rgba(195, 167, 65, var(--tw-text-opacity));
   }
 
+  .md\:text-ochre{
+    --tw-text-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-text-opacity));
+  }
+
   .md\:text-white{
     --tw-text-opacity: 1;
     color: rgba(243, 237, 215, var(--tw-text-opacity));
@@ -47705,6 +48225,11 @@ figcaption svg:hover {
   .group:hover .md\:group-hover\:text-yellow{
     --tw-text-opacity: 1;
     color: rgba(195, 167, 65, var(--tw-text-opacity));
+  }
+
+  .group:hover .md\:group-hover\:text-ochre{
+    --tw-text-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-text-opacity));
   }
 
   .group:hover .md\:group-hover\:text-white{
@@ -47742,6 +48267,11 @@ figcaption svg:hover {
     color: rgba(195, 167, 65, var(--tw-text-opacity));
   }
 
+  .md\:focus-within\:text-ochre:focus-within{
+    --tw-text-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-text-opacity));
+  }
+
   .md\:focus-within\:text-white:focus-within{
     --tw-text-opacity: 1;
     color: rgba(243, 237, 215, var(--tw-text-opacity));
@@ -47777,6 +48307,11 @@ figcaption svg:hover {
     color: rgba(195, 167, 65, var(--tw-text-opacity));
   }
 
+  .md\:hover\:text-ochre:hover{
+    --tw-text-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-text-opacity));
+  }
+
   .md\:hover\:text-white:hover{
     --tw-text-opacity: 1;
     color: rgba(243, 237, 215, var(--tw-text-opacity));
@@ -47810,6 +48345,11 @@ figcaption svg:hover {
   .md\:focus\:text-yellow:focus{
     --tw-text-opacity: 1;
     color: rgba(195, 167, 65, var(--tw-text-opacity));
+  }
+
+  .md\:focus\:text-ochre:focus{
+    --tw-text-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-text-opacity));
   }
 
   .md\:focus\:text-white:focus{
@@ -53920,6 +54460,11 @@ figcaption svg:hover {
     border-color: rgba(195, 167, 65, var(--tw-divide-opacity));
   }
 
+  .lg\:divide-ochre > :not([hidden]) ~ :not([hidden]){
+    --tw-divide-opacity: 1;
+    border-color: rgba(179, 150, 77, var(--tw-divide-opacity));
+  }
+
   .lg\:divide-white > :not([hidden]) ~ :not([hidden]){
     --tw-divide-opacity: 1;
     border-color: rgba(243, 237, 215, var(--tw-divide-opacity));
@@ -54139,6 +54684,11 @@ figcaption svg:hover {
     background-color: rgba(195, 167, 65, var(--tw-bg-opacity));
   }
 
+  .lg\:bg-ochre{
+    --tw-bg-opacity: 1;
+    background-color: rgba(179, 150, 77, var(--tw-bg-opacity));
+  }
+
   .lg\:bg-white{
     --tw-bg-opacity: 1;
     background-color: rgba(243, 237, 215, var(--tw-bg-opacity));
@@ -54172,6 +54722,11 @@ figcaption svg:hover {
   .group:hover .lg\:group-hover\:bg-yellow{
     --tw-bg-opacity: 1;
     background-color: rgba(195, 167, 65, var(--tw-bg-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:bg-ochre{
+    --tw-bg-opacity: 1;
+    background-color: rgba(179, 150, 77, var(--tw-bg-opacity));
   }
 
   .group:hover .lg\:group-hover\:bg-white{
@@ -54209,6 +54764,11 @@ figcaption svg:hover {
     background-color: rgba(195, 167, 65, var(--tw-bg-opacity));
   }
 
+  .lg\:focus-within\:bg-ochre:focus-within{
+    --tw-bg-opacity: 1;
+    background-color: rgba(179, 150, 77, var(--tw-bg-opacity));
+  }
+
   .lg\:focus-within\:bg-white:focus-within{
     --tw-bg-opacity: 1;
     background-color: rgba(243, 237, 215, var(--tw-bg-opacity));
@@ -54244,6 +54804,11 @@ figcaption svg:hover {
     background-color: rgba(195, 167, 65, var(--tw-bg-opacity));
   }
 
+  .lg\:hover\:bg-ochre:hover{
+    --tw-bg-opacity: 1;
+    background-color: rgba(179, 150, 77, var(--tw-bg-opacity));
+  }
+
   .lg\:hover\:bg-white:hover{
     --tw-bg-opacity: 1;
     background-color: rgba(243, 237, 215, var(--tw-bg-opacity));
@@ -54277,6 +54842,11 @@ figcaption svg:hover {
   .lg\:focus\:bg-yellow:focus{
     --tw-bg-opacity: 1;
     background-color: rgba(195, 167, 65, var(--tw-bg-opacity));
+  }
+
+  .lg\:focus\:bg-ochre:focus{
+    --tw-bg-opacity: 1;
+    background-color: rgba(179, 150, 77, var(--tw-bg-opacity));
   }
 
   .lg\:focus\:bg-white:focus{
@@ -54350,6 +54920,11 @@ figcaption svg:hover {
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(195, 167, 65, 0));
   }
 
+  .lg\:from-ochre{
+    --tw-gradient-from: #B3964D;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(179, 150, 77, 0));
+  }
+
   .lg\:from-white{
     --tw-gradient-from: #F3EDD7;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(243, 237, 215, 0));
@@ -54384,6 +54959,10 @@ figcaption svg:hover {
     --tw-gradient-stops: var(--tw-gradient-from), #C3A741, var(--tw-gradient-to, rgba(195, 167, 65, 0));
   }
 
+  .lg\:via-ochre{
+    --tw-gradient-stops: var(--tw-gradient-from), #B3964D, var(--tw-gradient-to, rgba(179, 150, 77, 0));
+  }
+
   .lg\:via-white{
     --tw-gradient-stops: var(--tw-gradient-from), #F3EDD7, var(--tw-gradient-to, rgba(243, 237, 215, 0));
   }
@@ -54410,6 +54989,10 @@ figcaption svg:hover {
 
   .lg\:to-yellow{
     --tw-gradient-to: #C3A741;
+  }
+
+  .lg\:to-ochre{
+    --tw-gradient-to: #B3964D;
   }
 
   .lg\:to-white{
@@ -54439,6 +55022,11 @@ figcaption svg:hover {
   .lg\:hover\:from-yellow:hover{
     --tw-gradient-from: #C3A741;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(195, 167, 65, 0));
+  }
+
+  .lg\:hover\:from-ochre:hover{
+    --tw-gradient-from: #B3964D;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(179, 150, 77, 0));
   }
 
   .lg\:hover\:from-white:hover{
@@ -54475,6 +55063,10 @@ figcaption svg:hover {
     --tw-gradient-stops: var(--tw-gradient-from), #C3A741, var(--tw-gradient-to, rgba(195, 167, 65, 0));
   }
 
+  .lg\:hover\:via-ochre:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), #B3964D, var(--tw-gradient-to, rgba(179, 150, 77, 0));
+  }
+
   .lg\:hover\:via-white:hover{
     --tw-gradient-stops: var(--tw-gradient-from), #F3EDD7, var(--tw-gradient-to, rgba(243, 237, 215, 0));
   }
@@ -54501,6 +55093,10 @@ figcaption svg:hover {
 
   .lg\:hover\:to-yellow:hover{
     --tw-gradient-to: #C3A741;
+  }
+
+  .lg\:hover\:to-ochre:hover{
+    --tw-gradient-to: #B3964D;
   }
 
   .lg\:hover\:to-white:hover{
@@ -54530,6 +55126,11 @@ figcaption svg:hover {
   .lg\:focus\:from-yellow:focus{
     --tw-gradient-from: #C3A741;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(195, 167, 65, 0));
+  }
+
+  .lg\:focus\:from-ochre:focus{
+    --tw-gradient-from: #B3964D;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(179, 150, 77, 0));
   }
 
   .lg\:focus\:from-white:focus{
@@ -54566,6 +55167,10 @@ figcaption svg:hover {
     --tw-gradient-stops: var(--tw-gradient-from), #C3A741, var(--tw-gradient-to, rgba(195, 167, 65, 0));
   }
 
+  .lg\:focus\:via-ochre:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), #B3964D, var(--tw-gradient-to, rgba(179, 150, 77, 0));
+  }
+
   .lg\:focus\:via-white:focus{
     --tw-gradient-stops: var(--tw-gradient-from), #F3EDD7, var(--tw-gradient-to, rgba(243, 237, 215, 0));
   }
@@ -54592,6 +55197,10 @@ figcaption svg:hover {
 
   .lg\:focus\:to-yellow:focus{
     --tw-gradient-to: #C3A741;
+  }
+
+  .lg\:focus\:to-ochre:focus{
+    --tw-gradient-to: #B3964D;
   }
 
   .lg\:focus\:to-white:focus{
@@ -55003,6 +55612,11 @@ figcaption svg:hover {
     border-color: rgba(195, 167, 65, var(--tw-border-opacity));
   }
 
+  .lg\:border-ochre{
+    --tw-border-opacity: 1;
+    border-color: rgba(179, 150, 77, var(--tw-border-opacity));
+  }
+
   .lg\:border-white{
     --tw-border-opacity: 1;
     border-color: rgba(243, 237, 215, var(--tw-border-opacity));
@@ -55036,6 +55650,11 @@ figcaption svg:hover {
   .group:hover .lg\:group-hover\:border-yellow{
     --tw-border-opacity: 1;
     border-color: rgba(195, 167, 65, var(--tw-border-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:border-ochre{
+    --tw-border-opacity: 1;
+    border-color: rgba(179, 150, 77, var(--tw-border-opacity));
   }
 
   .group:hover .lg\:group-hover\:border-white{
@@ -55073,6 +55692,11 @@ figcaption svg:hover {
     border-color: rgba(195, 167, 65, var(--tw-border-opacity));
   }
 
+  .lg\:focus-within\:border-ochre:focus-within{
+    --tw-border-opacity: 1;
+    border-color: rgba(179, 150, 77, var(--tw-border-opacity));
+  }
+
   .lg\:focus-within\:border-white:focus-within{
     --tw-border-opacity: 1;
     border-color: rgba(243, 237, 215, var(--tw-border-opacity));
@@ -55108,6 +55732,11 @@ figcaption svg:hover {
     border-color: rgba(195, 167, 65, var(--tw-border-opacity));
   }
 
+  .lg\:hover\:border-ochre:hover{
+    --tw-border-opacity: 1;
+    border-color: rgba(179, 150, 77, var(--tw-border-opacity));
+  }
+
   .lg\:hover\:border-white:hover{
     --tw-border-opacity: 1;
     border-color: rgba(243, 237, 215, var(--tw-border-opacity));
@@ -55141,6 +55770,11 @@ figcaption svg:hover {
   .lg\:focus\:border-yellow:focus{
     --tw-border-opacity: 1;
     border-color: rgba(195, 167, 65, var(--tw-border-opacity));
+  }
+
+  .lg\:focus\:border-ochre:focus{
+    --tw-border-opacity: 1;
+    border-color: rgba(179, 150, 77, var(--tw-border-opacity));
   }
 
   .lg\:focus\:border-white:focus{
@@ -60779,6 +61413,21 @@ figcaption svg:hover {
     color: rgba(195, 167, 65, var(--tw-placeholder-opacity));
   }
 
+  .lg\:placeholder-ochre::-moz-placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
+  }
+
+  .lg\:placeholder-ochre:-ms-input-placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
+  }
+
+  .lg\:placeholder-ochre::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
+  }
+
   .lg\:placeholder-white::-moz-placeholder{
     --tw-placeholder-opacity: 1;
     color: rgba(243, 237, 215, var(--tw-placeholder-opacity));
@@ -60882,6 +61531,21 @@ figcaption svg:hover {
   .lg\:focus\:placeholder-yellow:focus::placeholder{
     --tw-placeholder-opacity: 1;
     color: rgba(195, 167, 65, var(--tw-placeholder-opacity));
+  }
+
+  .lg\:focus\:placeholder-ochre:focus::-moz-placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
+  }
+
+  .lg\:focus\:placeholder-ochre:focus:-ms-input-placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
+  }
+
+  .lg\:focus\:placeholder-ochre:focus::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
   }
 
   .lg\:focus\:placeholder-white:focus::-moz-placeholder{
@@ -64507,6 +65171,10 @@ figcaption svg:hover {
     --tw-ring-offset-color: #C3A741;
   }
 
+  .lg\:ring-offset-ochre{
+    --tw-ring-offset-color: #B3964D;
+  }
+
   .lg\:ring-offset-white{
     --tw-ring-offset-color: #F3EDD7;
   }
@@ -64535,6 +65203,10 @@ figcaption svg:hover {
     --tw-ring-offset-color: #C3A741;
   }
 
+  .lg\:focus-within\:ring-offset-ochre:focus-within{
+    --tw-ring-offset-color: #B3964D;
+  }
+
   .lg\:focus-within\:ring-offset-white:focus-within{
     --tw-ring-offset-color: #F3EDD7;
   }
@@ -64561,6 +65233,10 @@ figcaption svg:hover {
 
   .lg\:focus\:ring-offset-yellow:focus{
     --tw-ring-offset-color: #C3A741;
+  }
+
+  .lg\:focus\:ring-offset-ochre:focus{
+    --tw-ring-offset-color: #B3964D;
   }
 
   .lg\:focus\:ring-offset-white:focus{
@@ -64652,6 +65328,11 @@ figcaption svg:hover {
     --tw-ring-color: rgba(195, 167, 65, var(--tw-ring-opacity));
   }
 
+  .lg\:ring-ochre{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(179, 150, 77, var(--tw-ring-opacity));
+  }
+
   .lg\:ring-white{
     --tw-ring-opacity: 1;
     --tw-ring-color: rgba(243, 237, 215, var(--tw-ring-opacity));
@@ -64687,6 +65368,11 @@ figcaption svg:hover {
     --tw-ring-color: rgba(195, 167, 65, var(--tw-ring-opacity));
   }
 
+  .lg\:focus-within\:ring-ochre:focus-within{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(179, 150, 77, var(--tw-ring-opacity));
+  }
+
   .lg\:focus-within\:ring-white:focus-within{
     --tw-ring-opacity: 1;
     --tw-ring-color: rgba(243, 237, 215, var(--tw-ring-opacity));
@@ -64720,6 +65406,11 @@ figcaption svg:hover {
   .lg\:focus\:ring-yellow:focus{
     --tw-ring-opacity: 1;
     --tw-ring-color: rgba(195, 167, 65, var(--tw-ring-opacity));
+  }
+
+  .lg\:focus\:ring-ochre:focus{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(179, 150, 77, var(--tw-ring-opacity));
   }
 
   .lg\:focus\:ring-white:focus{
@@ -64989,6 +65680,11 @@ figcaption svg:hover {
     color: rgba(195, 167, 65, var(--tw-text-opacity));
   }
 
+  .lg\:text-ochre{
+    --tw-text-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-text-opacity));
+  }
+
   .lg\:text-white{
     --tw-text-opacity: 1;
     color: rgba(243, 237, 215, var(--tw-text-opacity));
@@ -65022,6 +65718,11 @@ figcaption svg:hover {
   .group:hover .lg\:group-hover\:text-yellow{
     --tw-text-opacity: 1;
     color: rgba(195, 167, 65, var(--tw-text-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:text-ochre{
+    --tw-text-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-text-opacity));
   }
 
   .group:hover .lg\:group-hover\:text-white{
@@ -65059,6 +65760,11 @@ figcaption svg:hover {
     color: rgba(195, 167, 65, var(--tw-text-opacity));
   }
 
+  .lg\:focus-within\:text-ochre:focus-within{
+    --tw-text-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-text-opacity));
+  }
+
   .lg\:focus-within\:text-white:focus-within{
     --tw-text-opacity: 1;
     color: rgba(243, 237, 215, var(--tw-text-opacity));
@@ -65094,6 +65800,11 @@ figcaption svg:hover {
     color: rgba(195, 167, 65, var(--tw-text-opacity));
   }
 
+  .lg\:hover\:text-ochre:hover{
+    --tw-text-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-text-opacity));
+  }
+
   .lg\:hover\:text-white:hover{
     --tw-text-opacity: 1;
     color: rgba(243, 237, 215, var(--tw-text-opacity));
@@ -65127,6 +65838,11 @@ figcaption svg:hover {
   .lg\:focus\:text-yellow:focus{
     --tw-text-opacity: 1;
     color: rgba(195, 167, 65, var(--tw-text-opacity));
+  }
+
+  .lg\:focus\:text-ochre:focus{
+    --tw-text-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-text-opacity));
   }
 
   .lg\:focus\:text-white:focus{
@@ -71237,6 +71953,11 @@ figcaption svg:hover {
     border-color: rgba(195, 167, 65, var(--tw-divide-opacity));
   }
 
+  .xl\:divide-ochre > :not([hidden]) ~ :not([hidden]){
+    --tw-divide-opacity: 1;
+    border-color: rgba(179, 150, 77, var(--tw-divide-opacity));
+  }
+
   .xl\:divide-white > :not([hidden]) ~ :not([hidden]){
     --tw-divide-opacity: 1;
     border-color: rgba(243, 237, 215, var(--tw-divide-opacity));
@@ -71456,6 +72177,11 @@ figcaption svg:hover {
     background-color: rgba(195, 167, 65, var(--tw-bg-opacity));
   }
 
+  .xl\:bg-ochre{
+    --tw-bg-opacity: 1;
+    background-color: rgba(179, 150, 77, var(--tw-bg-opacity));
+  }
+
   .xl\:bg-white{
     --tw-bg-opacity: 1;
     background-color: rgba(243, 237, 215, var(--tw-bg-opacity));
@@ -71489,6 +72215,11 @@ figcaption svg:hover {
   .group:hover .xl\:group-hover\:bg-yellow{
     --tw-bg-opacity: 1;
     background-color: rgba(195, 167, 65, var(--tw-bg-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:bg-ochre{
+    --tw-bg-opacity: 1;
+    background-color: rgba(179, 150, 77, var(--tw-bg-opacity));
   }
 
   .group:hover .xl\:group-hover\:bg-white{
@@ -71526,6 +72257,11 @@ figcaption svg:hover {
     background-color: rgba(195, 167, 65, var(--tw-bg-opacity));
   }
 
+  .xl\:focus-within\:bg-ochre:focus-within{
+    --tw-bg-opacity: 1;
+    background-color: rgba(179, 150, 77, var(--tw-bg-opacity));
+  }
+
   .xl\:focus-within\:bg-white:focus-within{
     --tw-bg-opacity: 1;
     background-color: rgba(243, 237, 215, var(--tw-bg-opacity));
@@ -71561,6 +72297,11 @@ figcaption svg:hover {
     background-color: rgba(195, 167, 65, var(--tw-bg-opacity));
   }
 
+  .xl\:hover\:bg-ochre:hover{
+    --tw-bg-opacity: 1;
+    background-color: rgba(179, 150, 77, var(--tw-bg-opacity));
+  }
+
   .xl\:hover\:bg-white:hover{
     --tw-bg-opacity: 1;
     background-color: rgba(243, 237, 215, var(--tw-bg-opacity));
@@ -71594,6 +72335,11 @@ figcaption svg:hover {
   .xl\:focus\:bg-yellow:focus{
     --tw-bg-opacity: 1;
     background-color: rgba(195, 167, 65, var(--tw-bg-opacity));
+  }
+
+  .xl\:focus\:bg-ochre:focus{
+    --tw-bg-opacity: 1;
+    background-color: rgba(179, 150, 77, var(--tw-bg-opacity));
   }
 
   .xl\:focus\:bg-white:focus{
@@ -71667,6 +72413,11 @@ figcaption svg:hover {
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(195, 167, 65, 0));
   }
 
+  .xl\:from-ochre{
+    --tw-gradient-from: #B3964D;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(179, 150, 77, 0));
+  }
+
   .xl\:from-white{
     --tw-gradient-from: #F3EDD7;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(243, 237, 215, 0));
@@ -71701,6 +72452,10 @@ figcaption svg:hover {
     --tw-gradient-stops: var(--tw-gradient-from), #C3A741, var(--tw-gradient-to, rgba(195, 167, 65, 0));
   }
 
+  .xl\:via-ochre{
+    --tw-gradient-stops: var(--tw-gradient-from), #B3964D, var(--tw-gradient-to, rgba(179, 150, 77, 0));
+  }
+
   .xl\:via-white{
     --tw-gradient-stops: var(--tw-gradient-from), #F3EDD7, var(--tw-gradient-to, rgba(243, 237, 215, 0));
   }
@@ -71727,6 +72482,10 @@ figcaption svg:hover {
 
   .xl\:to-yellow{
     --tw-gradient-to: #C3A741;
+  }
+
+  .xl\:to-ochre{
+    --tw-gradient-to: #B3964D;
   }
 
   .xl\:to-white{
@@ -71756,6 +72515,11 @@ figcaption svg:hover {
   .xl\:hover\:from-yellow:hover{
     --tw-gradient-from: #C3A741;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(195, 167, 65, 0));
+  }
+
+  .xl\:hover\:from-ochre:hover{
+    --tw-gradient-from: #B3964D;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(179, 150, 77, 0));
   }
 
   .xl\:hover\:from-white:hover{
@@ -71792,6 +72556,10 @@ figcaption svg:hover {
     --tw-gradient-stops: var(--tw-gradient-from), #C3A741, var(--tw-gradient-to, rgba(195, 167, 65, 0));
   }
 
+  .xl\:hover\:via-ochre:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), #B3964D, var(--tw-gradient-to, rgba(179, 150, 77, 0));
+  }
+
   .xl\:hover\:via-white:hover{
     --tw-gradient-stops: var(--tw-gradient-from), #F3EDD7, var(--tw-gradient-to, rgba(243, 237, 215, 0));
   }
@@ -71818,6 +72586,10 @@ figcaption svg:hover {
 
   .xl\:hover\:to-yellow:hover{
     --tw-gradient-to: #C3A741;
+  }
+
+  .xl\:hover\:to-ochre:hover{
+    --tw-gradient-to: #B3964D;
   }
 
   .xl\:hover\:to-white:hover{
@@ -71847,6 +72619,11 @@ figcaption svg:hover {
   .xl\:focus\:from-yellow:focus{
     --tw-gradient-from: #C3A741;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(195, 167, 65, 0));
+  }
+
+  .xl\:focus\:from-ochre:focus{
+    --tw-gradient-from: #B3964D;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(179, 150, 77, 0));
   }
 
   .xl\:focus\:from-white:focus{
@@ -71883,6 +72660,10 @@ figcaption svg:hover {
     --tw-gradient-stops: var(--tw-gradient-from), #C3A741, var(--tw-gradient-to, rgba(195, 167, 65, 0));
   }
 
+  .xl\:focus\:via-ochre:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), #B3964D, var(--tw-gradient-to, rgba(179, 150, 77, 0));
+  }
+
   .xl\:focus\:via-white:focus{
     --tw-gradient-stops: var(--tw-gradient-from), #F3EDD7, var(--tw-gradient-to, rgba(243, 237, 215, 0));
   }
@@ -71909,6 +72690,10 @@ figcaption svg:hover {
 
   .xl\:focus\:to-yellow:focus{
     --tw-gradient-to: #C3A741;
+  }
+
+  .xl\:focus\:to-ochre:focus{
+    --tw-gradient-to: #B3964D;
   }
 
   .xl\:focus\:to-white:focus{
@@ -72320,6 +73105,11 @@ figcaption svg:hover {
     border-color: rgba(195, 167, 65, var(--tw-border-opacity));
   }
 
+  .xl\:border-ochre{
+    --tw-border-opacity: 1;
+    border-color: rgba(179, 150, 77, var(--tw-border-opacity));
+  }
+
   .xl\:border-white{
     --tw-border-opacity: 1;
     border-color: rgba(243, 237, 215, var(--tw-border-opacity));
@@ -72353,6 +73143,11 @@ figcaption svg:hover {
   .group:hover .xl\:group-hover\:border-yellow{
     --tw-border-opacity: 1;
     border-color: rgba(195, 167, 65, var(--tw-border-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:border-ochre{
+    --tw-border-opacity: 1;
+    border-color: rgba(179, 150, 77, var(--tw-border-opacity));
   }
 
   .group:hover .xl\:group-hover\:border-white{
@@ -72390,6 +73185,11 @@ figcaption svg:hover {
     border-color: rgba(195, 167, 65, var(--tw-border-opacity));
   }
 
+  .xl\:focus-within\:border-ochre:focus-within{
+    --tw-border-opacity: 1;
+    border-color: rgba(179, 150, 77, var(--tw-border-opacity));
+  }
+
   .xl\:focus-within\:border-white:focus-within{
     --tw-border-opacity: 1;
     border-color: rgba(243, 237, 215, var(--tw-border-opacity));
@@ -72425,6 +73225,11 @@ figcaption svg:hover {
     border-color: rgba(195, 167, 65, var(--tw-border-opacity));
   }
 
+  .xl\:hover\:border-ochre:hover{
+    --tw-border-opacity: 1;
+    border-color: rgba(179, 150, 77, var(--tw-border-opacity));
+  }
+
   .xl\:hover\:border-white:hover{
     --tw-border-opacity: 1;
     border-color: rgba(243, 237, 215, var(--tw-border-opacity));
@@ -72458,6 +73263,11 @@ figcaption svg:hover {
   .xl\:focus\:border-yellow:focus{
     --tw-border-opacity: 1;
     border-color: rgba(195, 167, 65, var(--tw-border-opacity));
+  }
+
+  .xl\:focus\:border-ochre:focus{
+    --tw-border-opacity: 1;
+    border-color: rgba(179, 150, 77, var(--tw-border-opacity));
   }
 
   .xl\:focus\:border-white:focus{
@@ -78096,6 +78906,21 @@ figcaption svg:hover {
     color: rgba(195, 167, 65, var(--tw-placeholder-opacity));
   }
 
+  .xl\:placeholder-ochre::-moz-placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
+  }
+
+  .xl\:placeholder-ochre:-ms-input-placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
+  }
+
+  .xl\:placeholder-ochre::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
+  }
+
   .xl\:placeholder-white::-moz-placeholder{
     --tw-placeholder-opacity: 1;
     color: rgba(243, 237, 215, var(--tw-placeholder-opacity));
@@ -78199,6 +79024,21 @@ figcaption svg:hover {
   .xl\:focus\:placeholder-yellow:focus::placeholder{
     --tw-placeholder-opacity: 1;
     color: rgba(195, 167, 65, var(--tw-placeholder-opacity));
+  }
+
+  .xl\:focus\:placeholder-ochre:focus::-moz-placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
+  }
+
+  .xl\:focus\:placeholder-ochre:focus:-ms-input-placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
+  }
+
+  .xl\:focus\:placeholder-ochre:focus::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
   }
 
   .xl\:focus\:placeholder-white:focus::-moz-placeholder{
@@ -81824,6 +82664,10 @@ figcaption svg:hover {
     --tw-ring-offset-color: #C3A741;
   }
 
+  .xl\:ring-offset-ochre{
+    --tw-ring-offset-color: #B3964D;
+  }
+
   .xl\:ring-offset-white{
     --tw-ring-offset-color: #F3EDD7;
   }
@@ -81852,6 +82696,10 @@ figcaption svg:hover {
     --tw-ring-offset-color: #C3A741;
   }
 
+  .xl\:focus-within\:ring-offset-ochre:focus-within{
+    --tw-ring-offset-color: #B3964D;
+  }
+
   .xl\:focus-within\:ring-offset-white:focus-within{
     --tw-ring-offset-color: #F3EDD7;
   }
@@ -81878,6 +82726,10 @@ figcaption svg:hover {
 
   .xl\:focus\:ring-offset-yellow:focus{
     --tw-ring-offset-color: #C3A741;
+  }
+
+  .xl\:focus\:ring-offset-ochre:focus{
+    --tw-ring-offset-color: #B3964D;
   }
 
   .xl\:focus\:ring-offset-white:focus{
@@ -81969,6 +82821,11 @@ figcaption svg:hover {
     --tw-ring-color: rgba(195, 167, 65, var(--tw-ring-opacity));
   }
 
+  .xl\:ring-ochre{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(179, 150, 77, var(--tw-ring-opacity));
+  }
+
   .xl\:ring-white{
     --tw-ring-opacity: 1;
     --tw-ring-color: rgba(243, 237, 215, var(--tw-ring-opacity));
@@ -82004,6 +82861,11 @@ figcaption svg:hover {
     --tw-ring-color: rgba(195, 167, 65, var(--tw-ring-opacity));
   }
 
+  .xl\:focus-within\:ring-ochre:focus-within{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(179, 150, 77, var(--tw-ring-opacity));
+  }
+
   .xl\:focus-within\:ring-white:focus-within{
     --tw-ring-opacity: 1;
     --tw-ring-color: rgba(243, 237, 215, var(--tw-ring-opacity));
@@ -82037,6 +82899,11 @@ figcaption svg:hover {
   .xl\:focus\:ring-yellow:focus{
     --tw-ring-opacity: 1;
     --tw-ring-color: rgba(195, 167, 65, var(--tw-ring-opacity));
+  }
+
+  .xl\:focus\:ring-ochre:focus{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(179, 150, 77, var(--tw-ring-opacity));
   }
 
   .xl\:focus\:ring-white:focus{
@@ -82306,6 +83173,11 @@ figcaption svg:hover {
     color: rgba(195, 167, 65, var(--tw-text-opacity));
   }
 
+  .xl\:text-ochre{
+    --tw-text-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-text-opacity));
+  }
+
   .xl\:text-white{
     --tw-text-opacity: 1;
     color: rgba(243, 237, 215, var(--tw-text-opacity));
@@ -82339,6 +83211,11 @@ figcaption svg:hover {
   .group:hover .xl\:group-hover\:text-yellow{
     --tw-text-opacity: 1;
     color: rgba(195, 167, 65, var(--tw-text-opacity));
+  }
+
+  .group:hover .xl\:group-hover\:text-ochre{
+    --tw-text-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-text-opacity));
   }
 
   .group:hover .xl\:group-hover\:text-white{
@@ -82376,6 +83253,11 @@ figcaption svg:hover {
     color: rgba(195, 167, 65, var(--tw-text-opacity));
   }
 
+  .xl\:focus-within\:text-ochre:focus-within{
+    --tw-text-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-text-opacity));
+  }
+
   .xl\:focus-within\:text-white:focus-within{
     --tw-text-opacity: 1;
     color: rgba(243, 237, 215, var(--tw-text-opacity));
@@ -82411,6 +83293,11 @@ figcaption svg:hover {
     color: rgba(195, 167, 65, var(--tw-text-opacity));
   }
 
+  .xl\:hover\:text-ochre:hover{
+    --tw-text-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-text-opacity));
+  }
+
   .xl\:hover\:text-white:hover{
     --tw-text-opacity: 1;
     color: rgba(243, 237, 215, var(--tw-text-opacity));
@@ -82444,6 +83331,11 @@ figcaption svg:hover {
   .xl\:focus\:text-yellow:focus{
     --tw-text-opacity: 1;
     color: rgba(195, 167, 65, var(--tw-text-opacity));
+  }
+
+  .xl\:focus\:text-ochre:focus{
+    --tw-text-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-text-opacity));
   }
 
   .xl\:focus\:text-white:focus{
@@ -88554,6 +89446,11 @@ figcaption svg:hover {
     border-color: rgba(195, 167, 65, var(--tw-divide-opacity));
   }
 
+  .\32xl\:divide-ochre > :not([hidden]) ~ :not([hidden]){
+    --tw-divide-opacity: 1;
+    border-color: rgba(179, 150, 77, var(--tw-divide-opacity));
+  }
+
   .\32xl\:divide-white > :not([hidden]) ~ :not([hidden]){
     --tw-divide-opacity: 1;
     border-color: rgba(243, 237, 215, var(--tw-divide-opacity));
@@ -88773,6 +89670,11 @@ figcaption svg:hover {
     background-color: rgba(195, 167, 65, var(--tw-bg-opacity));
   }
 
+  .\32xl\:bg-ochre{
+    --tw-bg-opacity: 1;
+    background-color: rgba(179, 150, 77, var(--tw-bg-opacity));
+  }
+
   .\32xl\:bg-white{
     --tw-bg-opacity: 1;
     background-color: rgba(243, 237, 215, var(--tw-bg-opacity));
@@ -88806,6 +89708,11 @@ figcaption svg:hover {
   .group:hover .\32xl\:group-hover\:bg-yellow{
     --tw-bg-opacity: 1;
     background-color: rgba(195, 167, 65, var(--tw-bg-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:bg-ochre{
+    --tw-bg-opacity: 1;
+    background-color: rgba(179, 150, 77, var(--tw-bg-opacity));
   }
 
   .group:hover .\32xl\:group-hover\:bg-white{
@@ -88843,6 +89750,11 @@ figcaption svg:hover {
     background-color: rgba(195, 167, 65, var(--tw-bg-opacity));
   }
 
+  .\32xl\:focus-within\:bg-ochre:focus-within{
+    --tw-bg-opacity: 1;
+    background-color: rgba(179, 150, 77, var(--tw-bg-opacity));
+  }
+
   .\32xl\:focus-within\:bg-white:focus-within{
     --tw-bg-opacity: 1;
     background-color: rgba(243, 237, 215, var(--tw-bg-opacity));
@@ -88878,6 +89790,11 @@ figcaption svg:hover {
     background-color: rgba(195, 167, 65, var(--tw-bg-opacity));
   }
 
+  .\32xl\:hover\:bg-ochre:hover{
+    --tw-bg-opacity: 1;
+    background-color: rgba(179, 150, 77, var(--tw-bg-opacity));
+  }
+
   .\32xl\:hover\:bg-white:hover{
     --tw-bg-opacity: 1;
     background-color: rgba(243, 237, 215, var(--tw-bg-opacity));
@@ -88911,6 +89828,11 @@ figcaption svg:hover {
   .\32xl\:focus\:bg-yellow:focus{
     --tw-bg-opacity: 1;
     background-color: rgba(195, 167, 65, var(--tw-bg-opacity));
+  }
+
+  .\32xl\:focus\:bg-ochre:focus{
+    --tw-bg-opacity: 1;
+    background-color: rgba(179, 150, 77, var(--tw-bg-opacity));
   }
 
   .\32xl\:focus\:bg-white:focus{
@@ -88984,6 +89906,11 @@ figcaption svg:hover {
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(195, 167, 65, 0));
   }
 
+  .\32xl\:from-ochre{
+    --tw-gradient-from: #B3964D;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(179, 150, 77, 0));
+  }
+
   .\32xl\:from-white{
     --tw-gradient-from: #F3EDD7;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(243, 237, 215, 0));
@@ -89018,6 +89945,10 @@ figcaption svg:hover {
     --tw-gradient-stops: var(--tw-gradient-from), #C3A741, var(--tw-gradient-to, rgba(195, 167, 65, 0));
   }
 
+  .\32xl\:via-ochre{
+    --tw-gradient-stops: var(--tw-gradient-from), #B3964D, var(--tw-gradient-to, rgba(179, 150, 77, 0));
+  }
+
   .\32xl\:via-white{
     --tw-gradient-stops: var(--tw-gradient-from), #F3EDD7, var(--tw-gradient-to, rgba(243, 237, 215, 0));
   }
@@ -89044,6 +89975,10 @@ figcaption svg:hover {
 
   .\32xl\:to-yellow{
     --tw-gradient-to: #C3A741;
+  }
+
+  .\32xl\:to-ochre{
+    --tw-gradient-to: #B3964D;
   }
 
   .\32xl\:to-white{
@@ -89073,6 +90008,11 @@ figcaption svg:hover {
   .\32xl\:hover\:from-yellow:hover{
     --tw-gradient-from: #C3A741;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(195, 167, 65, 0));
+  }
+
+  .\32xl\:hover\:from-ochre:hover{
+    --tw-gradient-from: #B3964D;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(179, 150, 77, 0));
   }
 
   .\32xl\:hover\:from-white:hover{
@@ -89109,6 +90049,10 @@ figcaption svg:hover {
     --tw-gradient-stops: var(--tw-gradient-from), #C3A741, var(--tw-gradient-to, rgba(195, 167, 65, 0));
   }
 
+  .\32xl\:hover\:via-ochre:hover{
+    --tw-gradient-stops: var(--tw-gradient-from), #B3964D, var(--tw-gradient-to, rgba(179, 150, 77, 0));
+  }
+
   .\32xl\:hover\:via-white:hover{
     --tw-gradient-stops: var(--tw-gradient-from), #F3EDD7, var(--tw-gradient-to, rgba(243, 237, 215, 0));
   }
@@ -89135,6 +90079,10 @@ figcaption svg:hover {
 
   .\32xl\:hover\:to-yellow:hover{
     --tw-gradient-to: #C3A741;
+  }
+
+  .\32xl\:hover\:to-ochre:hover{
+    --tw-gradient-to: #B3964D;
   }
 
   .\32xl\:hover\:to-white:hover{
@@ -89164,6 +90112,11 @@ figcaption svg:hover {
   .\32xl\:focus\:from-yellow:focus{
     --tw-gradient-from: #C3A741;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(195, 167, 65, 0));
+  }
+
+  .\32xl\:focus\:from-ochre:focus{
+    --tw-gradient-from: #B3964D;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(179, 150, 77, 0));
   }
 
   .\32xl\:focus\:from-white:focus{
@@ -89200,6 +90153,10 @@ figcaption svg:hover {
     --tw-gradient-stops: var(--tw-gradient-from), #C3A741, var(--tw-gradient-to, rgba(195, 167, 65, 0));
   }
 
+  .\32xl\:focus\:via-ochre:focus{
+    --tw-gradient-stops: var(--tw-gradient-from), #B3964D, var(--tw-gradient-to, rgba(179, 150, 77, 0));
+  }
+
   .\32xl\:focus\:via-white:focus{
     --tw-gradient-stops: var(--tw-gradient-from), #F3EDD7, var(--tw-gradient-to, rgba(243, 237, 215, 0));
   }
@@ -89226,6 +90183,10 @@ figcaption svg:hover {
 
   .\32xl\:focus\:to-yellow:focus{
     --tw-gradient-to: #C3A741;
+  }
+
+  .\32xl\:focus\:to-ochre:focus{
+    --tw-gradient-to: #B3964D;
   }
 
   .\32xl\:focus\:to-white:focus{
@@ -89637,6 +90598,11 @@ figcaption svg:hover {
     border-color: rgba(195, 167, 65, var(--tw-border-opacity));
   }
 
+  .\32xl\:border-ochre{
+    --tw-border-opacity: 1;
+    border-color: rgba(179, 150, 77, var(--tw-border-opacity));
+  }
+
   .\32xl\:border-white{
     --tw-border-opacity: 1;
     border-color: rgba(243, 237, 215, var(--tw-border-opacity));
@@ -89670,6 +90636,11 @@ figcaption svg:hover {
   .group:hover .\32xl\:group-hover\:border-yellow{
     --tw-border-opacity: 1;
     border-color: rgba(195, 167, 65, var(--tw-border-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:border-ochre{
+    --tw-border-opacity: 1;
+    border-color: rgba(179, 150, 77, var(--tw-border-opacity));
   }
 
   .group:hover .\32xl\:group-hover\:border-white{
@@ -89707,6 +90678,11 @@ figcaption svg:hover {
     border-color: rgba(195, 167, 65, var(--tw-border-opacity));
   }
 
+  .\32xl\:focus-within\:border-ochre:focus-within{
+    --tw-border-opacity: 1;
+    border-color: rgba(179, 150, 77, var(--tw-border-opacity));
+  }
+
   .\32xl\:focus-within\:border-white:focus-within{
     --tw-border-opacity: 1;
     border-color: rgba(243, 237, 215, var(--tw-border-opacity));
@@ -89742,6 +90718,11 @@ figcaption svg:hover {
     border-color: rgba(195, 167, 65, var(--tw-border-opacity));
   }
 
+  .\32xl\:hover\:border-ochre:hover{
+    --tw-border-opacity: 1;
+    border-color: rgba(179, 150, 77, var(--tw-border-opacity));
+  }
+
   .\32xl\:hover\:border-white:hover{
     --tw-border-opacity: 1;
     border-color: rgba(243, 237, 215, var(--tw-border-opacity));
@@ -89775,6 +90756,11 @@ figcaption svg:hover {
   .\32xl\:focus\:border-yellow:focus{
     --tw-border-opacity: 1;
     border-color: rgba(195, 167, 65, var(--tw-border-opacity));
+  }
+
+  .\32xl\:focus\:border-ochre:focus{
+    --tw-border-opacity: 1;
+    border-color: rgba(179, 150, 77, var(--tw-border-opacity));
   }
 
   .\32xl\:focus\:border-white:focus{
@@ -95413,6 +96399,21 @@ figcaption svg:hover {
     color: rgba(195, 167, 65, var(--tw-placeholder-opacity));
   }
 
+  .\32xl\:placeholder-ochre::-moz-placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
+  }
+
+  .\32xl\:placeholder-ochre:-ms-input-placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
+  }
+
+  .\32xl\:placeholder-ochre::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
+  }
+
   .\32xl\:placeholder-white::-moz-placeholder{
     --tw-placeholder-opacity: 1;
     color: rgba(243, 237, 215, var(--tw-placeholder-opacity));
@@ -95516,6 +96517,21 @@ figcaption svg:hover {
   .\32xl\:focus\:placeholder-yellow:focus::placeholder{
     --tw-placeholder-opacity: 1;
     color: rgba(195, 167, 65, var(--tw-placeholder-opacity));
+  }
+
+  .\32xl\:focus\:placeholder-ochre:focus::-moz-placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
+  }
+
+  .\32xl\:focus\:placeholder-ochre:focus:-ms-input-placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
+  }
+
+  .\32xl\:focus\:placeholder-ochre:focus::placeholder{
+    --tw-placeholder-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-placeholder-opacity));
   }
 
   .\32xl\:focus\:placeholder-white:focus::-moz-placeholder{
@@ -99141,6 +100157,10 @@ figcaption svg:hover {
     --tw-ring-offset-color: #C3A741;
   }
 
+  .\32xl\:ring-offset-ochre{
+    --tw-ring-offset-color: #B3964D;
+  }
+
   .\32xl\:ring-offset-white{
     --tw-ring-offset-color: #F3EDD7;
   }
@@ -99169,6 +100189,10 @@ figcaption svg:hover {
     --tw-ring-offset-color: #C3A741;
   }
 
+  .\32xl\:focus-within\:ring-offset-ochre:focus-within{
+    --tw-ring-offset-color: #B3964D;
+  }
+
   .\32xl\:focus-within\:ring-offset-white:focus-within{
     --tw-ring-offset-color: #F3EDD7;
   }
@@ -99195,6 +100219,10 @@ figcaption svg:hover {
 
   .\32xl\:focus\:ring-offset-yellow:focus{
     --tw-ring-offset-color: #C3A741;
+  }
+
+  .\32xl\:focus\:ring-offset-ochre:focus{
+    --tw-ring-offset-color: #B3964D;
   }
 
   .\32xl\:focus\:ring-offset-white:focus{
@@ -99286,6 +100314,11 @@ figcaption svg:hover {
     --tw-ring-color: rgba(195, 167, 65, var(--tw-ring-opacity));
   }
 
+  .\32xl\:ring-ochre{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(179, 150, 77, var(--tw-ring-opacity));
+  }
+
   .\32xl\:ring-white{
     --tw-ring-opacity: 1;
     --tw-ring-color: rgba(243, 237, 215, var(--tw-ring-opacity));
@@ -99321,6 +100354,11 @@ figcaption svg:hover {
     --tw-ring-color: rgba(195, 167, 65, var(--tw-ring-opacity));
   }
 
+  .\32xl\:focus-within\:ring-ochre:focus-within{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(179, 150, 77, var(--tw-ring-opacity));
+  }
+
   .\32xl\:focus-within\:ring-white:focus-within{
     --tw-ring-opacity: 1;
     --tw-ring-color: rgba(243, 237, 215, var(--tw-ring-opacity));
@@ -99354,6 +100392,11 @@ figcaption svg:hover {
   .\32xl\:focus\:ring-yellow:focus{
     --tw-ring-opacity: 1;
     --tw-ring-color: rgba(195, 167, 65, var(--tw-ring-opacity));
+  }
+
+  .\32xl\:focus\:ring-ochre:focus{
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(179, 150, 77, var(--tw-ring-opacity));
   }
 
   .\32xl\:focus\:ring-white:focus{
@@ -99623,6 +100666,11 @@ figcaption svg:hover {
     color: rgba(195, 167, 65, var(--tw-text-opacity));
   }
 
+  .\32xl\:text-ochre{
+    --tw-text-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-text-opacity));
+  }
+
   .\32xl\:text-white{
     --tw-text-opacity: 1;
     color: rgba(243, 237, 215, var(--tw-text-opacity));
@@ -99656,6 +100704,11 @@ figcaption svg:hover {
   .group:hover .\32xl\:group-hover\:text-yellow{
     --tw-text-opacity: 1;
     color: rgba(195, 167, 65, var(--tw-text-opacity));
+  }
+
+  .group:hover .\32xl\:group-hover\:text-ochre{
+    --tw-text-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-text-opacity));
   }
 
   .group:hover .\32xl\:group-hover\:text-white{
@@ -99693,6 +100746,11 @@ figcaption svg:hover {
     color: rgba(195, 167, 65, var(--tw-text-opacity));
   }
 
+  .\32xl\:focus-within\:text-ochre:focus-within{
+    --tw-text-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-text-opacity));
+  }
+
   .\32xl\:focus-within\:text-white:focus-within{
     --tw-text-opacity: 1;
     color: rgba(243, 237, 215, var(--tw-text-opacity));
@@ -99728,6 +100786,11 @@ figcaption svg:hover {
     color: rgba(195, 167, 65, var(--tw-text-opacity));
   }
 
+  .\32xl\:hover\:text-ochre:hover{
+    --tw-text-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-text-opacity));
+  }
+
   .\32xl\:hover\:text-white:hover{
     --tw-text-opacity: 1;
     color: rgba(243, 237, 215, var(--tw-text-opacity));
@@ -99761,6 +100824,11 @@ figcaption svg:hover {
   .\32xl\:focus\:text-yellow:focus{
     --tw-text-opacity: 1;
     color: rgba(195, 167, 65, var(--tw-text-opacity));
+  }
+
+  .\32xl\:focus\:text-ochre:focus{
+    --tw-text-opacity: 1;
+    color: rgba(179, 150, 77, var(--tw-text-opacity));
   }
 
   .\32xl\:focus\:text-white:focus{
