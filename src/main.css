@@ -11,12 +11,13 @@ body {
 }
 
 h1 {
-	@apply text-right uppercase leading-extra-tight font-extralight text-yellow transform origin-bottom-left -translate-y-3/100 -rotate-5;
-	font-size: 28vw;
+	/* @apply text-right uppercase leading-extra-tight font-extralight text-yellow transform origin-bottom-left -translate-y-3/100 -rotate-5; */
+	@apply text-right uppercase leading-extra-tight font-extralight text-beige transform origin-right;
+	font-size: 8vw;
 }
 
 h2 {
-	@apply text-4xl font-thin tracking-widest uppercase md:text-5xl lg:text-7xl xl:text-8xl leading-extra-tight;
+	@apply text-4xl font-thin tracking-wider uppercase md:text-5xl lg:text-7xl xl:text-8xl leading-extra-tight;
 }
 
 p a:hover {
@@ -40,19 +41,20 @@ footer:before {
 	top: 0;
 	left: 0;
 	transform-origin: top left;
-	transform: translateX(0) rotate(-5deg);
+	/* transform: translateX(0) rotate(-5deg); */
+	transform: translateX(0);
 	z-index: -1;
 	background-color: inherit;
 }
 
 header {
 	position: relative;
-	height: 90vh;
+	height: 15vh;
 }
 
 @media screen and (min-width: 1024px) {
 	header {
-		height: 100vh;
+		height: 15vh;
 	}
 }
 
