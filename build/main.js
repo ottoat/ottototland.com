@@ -10,26 +10,26 @@ class OttoRelease extends HTMLElement {
 
 		if (align == 'left') {
 			this.innerHTML = `
-<figure class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 lg:space-x-8 xl:space-x-10 transform origin-top-left md:-rotate-5">
-	<span class="block w-full md:w-2/4 ${colorClass} transform md:transform-none origin-top-left -rotate-5">
+<figure class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 lg:space-x-8 xl:space-x-10 transform origin-top-left">
+	<span class="md:w-1/4 transform md:transform-none origin-top-left">
 		<img class="w-full" src="${cover}" alt="${title}">
 	</span>
 
-	<figcaption class="flex items-center justify-center w-full py-20 md:w-2/4 ${colorClass} transform md:transform-none origin-bottom-left -rotate-5 md:py-0">
-		<ul class="flex flex-col space-y-6 lg:space-y-8 2xl:space-y-10">
-			<li class="h-10 lg:h-14 2xl:h-20">
+	<figcaption class="flex items-center justify-center w-full py-20 md:w-1/4 ${colorClass} transform md:transform-none origin-bottom-left md:py-0">
+		<ul class="flex flex-col space-y-5 lg:space-y-7 2xl:space-y-9">
+			<li class="h-6 lg:h-10 2xl:h-16">
 				<a class="block h-full" href="${spotify}" target="_blank">
 					<svg class="h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 85 27" fill-rule="evenodd"><use xlink:href="#listen-on-spotify"/></svg>
 				</a>
 			</li>
 
-			<li class="h-10 lg:h-14 2xl:h-20">
+			<li class="h-6 lg:h-10 2xl:h-16">
 				<a class="block h-full" href="${tidal}" target="_blank">
 					<svg class="h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 107 27" fill-rule="evenodd"><use xlink:href="#listen-on-tidal"/></svg>
 				</a>
 			</li>
 
-			<li class="h-10 lg:h-14 2xl:h-20" target="_blank">
+			<li class="h-6 lg:h-10 2xl:h-16" target="_blank">
 				<a class="block h-full" href="${apple}">
 					<svg class="h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 125 27" fill-rule="evenodd"><use xlink:href="#listen-on-apple-music"/></svg>
 				</a>
@@ -39,12 +39,12 @@ class OttoRelease extends HTMLElement {
 </figure>`;
 		} else {
 			this.innerHTML = `
-<figure class="flex flex-col md:flex-row-reverse md:space-x-reverse lg:space-x-reverse xl:space-x-reverse 2xl:space-x-reverse space-y-4 md:space-y-0 md:space-x-4 lg:space-x-8 xl:space-x-10 transform origin-bottom-left md:-rotate-5">
-	<span class="block w-full md:w-2/4 ${colorClass} transform md:transform-none origin-top-left -rotate-5">
+<figure class="flex flex-col md:flex-row-reverse md:space-x-reverse lg:space-x-reverse xl:space-x-reverse 2xl:space-x-reverse space-y-4 md:space-y-0 md:space-x-4 lg:space-x-8 xl:space-x-10 transform origin-bottom-left">
+	<span class="block w-full md:w-2/4 ${colorClass} transform md:transform-none origin-top-left">
 		<img class="w-full" src="${cover}" alt="${title}">
 	</span>
 
-	<figcaption class="flex items-center justify-center w-full py-20 md:w-2/4 ${colorClass} transform md:transform-none origin-bottom-left -rotate-5 md:py-0">
+	<figcaption class="flex items-center justify-center w-full py-20 md:w-2/4 ${colorClass} transform md:transform-none origin-bottom-left md:py-0">
 		<ul class="flex flex-col space-y-6 lg:space-y-8 2xl:space-y-10">
 			<li class="h-10 lg:h-14 2xl:h-20">
 				<a class="block h-full" href="${spotify}" target="_blank">

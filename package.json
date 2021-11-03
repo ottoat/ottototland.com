@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "node node_modules/postcss-cli/bin/postcss src/main.css -o build/main.css",
-    "serve": "npx light-server -s . -w 'index.html #' -w 'build/**/*.js #' -w 'src/**/*.css # npm run build # reloadcss' -p 8000",
+    "serve": "npx light-server@latest -s . -w \"index.html #\" -w \"build/**/*.js #\" -w \"src/**/*.css # npm run build # reloadcss\" -p 8000",
     "stage": "surge . --domain ottototland.surge.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

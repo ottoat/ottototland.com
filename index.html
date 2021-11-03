@@ -24,19 +24,47 @@
 	<link rel="stylesheet" href="build/main.css?v=4">
 </head>
 <body class="bg-sienna-dark">
-	<header class="flex items-end justify-center bg-sienna-dark">
+	<header class="pl-10 md:pl-12 lg:pl-20 xl:pl-24 flex items-end justify-left bg-sienna-dark">
 		<video poster="assets/bg.jpg" autoplay playsinline muted disableRemotePlayback>
 			<source src="assets/bg.mp4" type="video/mp4">
 		</video>
 
-		<h1 class="">Otto A.<br/>Totland</h1>
+		<h1>Otto A. Totland</h1>
 	</header>
 
-	<section class="bg-yellow">
-		<h2 class="p-10 text-white md:p-12 lg:p-20 xl:p-24 transform origin-bottom-left -translate-y-3/100 -rotate-5">Releases</h2>
+	<section class="bg-beige">
+		<h2 class="p-10 text-white md:pl-12 lg:pl-20 xl:pl-24 transform origin-bottom-left -translate-y-3/100">Biography</h2>
+		<div class="container text-2xl leading-tight md:text-justify md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl space-y-10 md:space-y-8 lg:space-y-10 xl:space-y-12 2xl:space-y-14">
+			<img class="border-8 border-white" src="/assets/otto_totland2.jpeg" alt="Otto Totland">
+
+			<p>Otto Andreas Totland was born in Porsgrunn, Norway 1979. He started composing music using computers, but soon found the tools limiting effects on creativity. The simple complexity of the piano drew him further and further away from the digital – finding more joy in a single sustaining string than the limitless impossibilities of the virtual.</p>
+
+			<p>Being a self taught pianist; Otto developed a unique and personal compositional style. Drawing inspiration from a deep history of Norwegian folk music, romantic-era composers and early Scandinavian jazz – he weaves a minimalistic, melancholic and meditative soundscape.<br/>His music transports you from the cacophony of life, to a cabin deep in the Norwegian wilderness. As you lay your head on the piano everything else fades away – it's just you, Otto and the piano – a fragile, beautiful and intimate space making way for quiet introspection.</p>
+
+			<!-- <p>His new-classical compositional style has been coined «Otto-music» by Swedish radio – a genre shared with the likes of <a href="https://www.nilsfrahm.com/" target="_blank">Nils Frahm</a> and <a href="https://olafurarnalds.com/" target="_blank">Ólafur Arnalds</a>.</p> -->
+
+			<p>Otto's career started with <a href="https://deafcenter.bandcamp.com/" target="_blank">Deaf Center</a> – an ongoing project in collaboration with his close childhood friend <a href="http://miasmah.com/eks/index.html" target="_blank">Erik Skodvin</a>. Totland's gentle and melodic piano work provides a haunting relief to Erik's dark, sometimes brooding, ambient noise and deep strings.</p>
+
+			<p>In collaboration with Huw Roberts on the <a href="https://serein.co.uk/releases/nest-retold-special-edition" target="_blank">Serein label</a>, Otto further cements his love for ambient music with Nest – creating a highly cinematic experience as he does with all his music.</p>
+
+			<p>Every composition takes you on a journey to a different place, weaving stories from sound – powerful yet gentle, always hopefully melancholic.</p>
+
+			<p>With Companion, Otto A Totland completes his trilogy of personal, sparse piano compositions, following in the footsteps of 2014´s Pinô and 2017´s The Lost.</a>.</p>
+			
+			<p>All three records are released by <a href="http://sonicpieces.com/" target="_blank">Sonic Pieces</a> in hand-crafted limited edition covers as a statement showing that craftmanship and humanity still exists in this world constantly moving towards the exact opposite.</p>
+		</div>
+
+		<h2 class="p-2 mt-2 md:mt-3 xl:mt-6 text-sienna md:p-3 lg:p-6 xl:p-6 transform origin-bottom-left -translate-y-3/100">&nbsp;</h2>
+		<!-- <h2 class="p-10 mt-10 md:mt-12 xl:mt-24 text-sienna md:p-12 lg:p-20 xl:p-24 transform origin-bottom-left -translate-y-3/100 -rotate-5">Events</h2> -->
+
+	</section>
+
+	<!-- section class="pt-20 lg:pt-32 2xl:pt-40 bg-yellow" -->
+	<section class="bg-beige">
+		<h2 class="p-10 text-white md:p-12 lg:p-20 xl:p-24 transform origin-bottom-left -translate-y-3/100">The trilogy</h2>
 
 		<div class="flex flex-col space-y-4 lg:space-y-8 xl:space-y-10">
-			<otto-release
+			<otto-release class="md:pl-20 lg:pl-28 xl:pl-28"
 				title="Pinô"
 				cover="assets/pino.jpg"
 				color-class="bg-green"
@@ -46,17 +74,17 @@
 				align="left"
 			></otto-release>
 
-			<otto-release
+			<otto-release class="md:pl-20 lg:pl-28 xl:pl-28"
 				title="The Lost"
 				cover="assets/the-lost.jpg"
 				color-class="bg-blue"
 				spotify="https://open.spotify.com/album/7kC6WXiBzA4Itfbzy9PmkT"
 				tidal="https://tidal.com/browse/album/80271749"
 				apple="https://music.apple.com/us/album/the-lost/1297298097"
-				align="right"
+				align="left"
 			></otto-release>
 			
-			<otto-release
+			<otto-release class="md:pl-20 lg:pl-28 xl:pl-28"
 				title="Companion"
 				cover="assets/companion.jpg"
 				color-class="bg-ochre"
@@ -66,29 +94,8 @@
 				align="left"
 			></otto-release>
 		</div>
+		<h2 class="p-2 mt-2 md:mt-3 xl:mt-6 text-sienna md:p-3 lg:p-6 xl:p-6 transform origin-bottom-left -translate-y-3/100">&nbsp;</h2>
 
-		<h2 class="p-10 text-white md:p-12 lg:p-20 xl:p-24 transform origin-bottom-left -translate-y-3/100 -rotate-5">Biography</h2>
-	</section>
-
-	<section class="pt-20 lg:pt-32 2xl:pt-40 bg-beige">
-		<div class="container text-2xl leading-tight md:text-justify md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl space-y-10 md:space-y-8 lg:space-y-10 xl:space-y-12 2xl:space-y-14">
-			<img class="border-8 border-white" src="/assets/otto-totland.jpg" alt="Otto Totland">
-
-			<p>Otto Andreas Totland was born in Porsgrunn, Norway 1979. He started composing music using computers, but soon found the tools limiting effects on creativity. The simple complexity of the piano drew him further and further away from the digital – finding more joy in a single sustaining string than the limitless impossibilities of the virtual.</p>
-
-			<p>Being a self taught pianist; Otto developed a unique and personal compositional style. Drawing inspiration from a deep history of Norwegian folk music, romantic-era composers and early Scandinavian jazz – he weaves a minimalistic, melancholic and meditative soundscape.<br/>His music transports you from the cacophony of life, to a cabin deep in the Norwegian wilderness. As you lay your head on the piano everything else fades away – it's just you, Otto and the piano – a fragile, beautiful and intimate space making way for quiet introspection.</p>
-
-			<p>His new-classical compositional style has been coined «Otto-music» by Swedish radio – a genre shared with the likes of <a href="https://www.nilsfrahm.com/" target="_blank">Nils Frahm</a> and <a href="https://olafurarnalds.com/" target="_blank">Ólafur Arnalds</a>.</p>
-
-			<p>Otto's career started with <a href="https://deafcenter.bandcamp.com/" target="_blank">Deaf Center</a> – an ongoing project in collaboration with his close childhood friend <a href="http://miasmah.com/eks/index.html" target="_blank">Erik Skodvin</a>. Totland's gentle and melodic piano work provides a haunting relief to Erik's dark, sometimes brooding, ambient noise and deep strings.</p>
-
-			<p>In collaboration with Huw Roberts on the <a href="https://serein.co.uk/releases/nest-retold-special-edition" target="_blank">Serein label</a>, Otto further cements his love for ambient music with Nest – creating a highly cinematic experience as he does with all his music.</p>
-
-			<p>Every composition takes you on a journey to a different place, weaving stories from sound – powerful yet gentle, always hopefully melancholic.</p>
-		</div>
-
-		<h2 class="p-10 mt-10 md:mt-12 xl:mt-24 text-sienna md:p-12 lg:p-20 xl:p-24 transform origin-bottom-left -translate-y-3/100 -rotate-5">&nbsp;</h2>
-		<!-- <h2 class="p-10 mt-10 md:mt-12 xl:mt-24 text-sienna md:p-12 lg:p-20 xl:p-24 transform origin-bottom-left -translate-y-3/100 -rotate-5">Events</h2> -->
 	</section>
 
 	<!-- <section class="pt-20 pb-28 bg-sienna md:pb-32 lg:pt-32 lg:pb-48 xl:pb-56 2xl:pt-40 2xl:pb-72 bg-beige"> -->
@@ -102,7 +109,7 @@
 	<!-- </section> -->
 
 	<footer class="flex justify-center p-10 pb-60 bg-sienna-dark">
-		<div class="flex flex-col transform -rotate-5 space-y-16">
+		<div class="flex flex-col transform space-y-16">
 			<a class="block text-2xl text-white opacity-25 email-link font-extralight hover:opacity-60 md:text-4xl lg:text-5xl xl:text-6xl" href="mailto:otto@ottototland.com">otto@ottototland.com</a>
 
 			<a class="text-center text-white fill-current text-opacity-25 twitter-link hover:text-opacity-60" href="https://twitter.com/ottoat" target="_blank"><svg class="inline-block h-12" viewBox="0 0 1034 850" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"><path d="M924.8 213.7c.617 9.025.617 18.088.617 27.196 0 278.054-211.683 598.688-598.692 598.688v-.162A595.695 595.695 0 0 1 4.2 745.063a427.37 427.37 0 0 0 50.092 3.038 422.238 422.238 0 0 0 261.317-90.246c-90.025-1.692-169.017-60.413-196.584-146.13a210.024 210.024 0 0 0 95.009-3.608c-98.18-19.833-168.784-106.1-168.809-206.263v-2.662a208.878 208.878 0 0 0 95.5 26.333C48.258 263.784 19.733 140.788 75.583 44.642c106.842 131.45 264.467 211.362 433.655 219.842-16.963-73.071 6.225-149.65 60.87-201.042 84.734-79.688 218.022-75.596 297.71 9.137a421.814 421.814 0 0 0 133.612-51.07 211.14 211.14 0 0 1-92.504 116.379 419.925 419.925 0 0 0 120.85-33.105A428.118 428.118 0 0 1 924.8 213.7z" fill-rule="nonzero"/></svg></a>

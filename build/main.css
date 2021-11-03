@@ -18130,11 +18130,12 @@ body {
 }
 
 h1 {
+  /* @apply text-right uppercase leading-extra-tight font-extralight text-yellow transform origin-bottom-left -translate-y-3/100 -rotate-5; */
   font-weight: 200;
   line-height: 0.75;
   text-align: right;
   --tw-text-opacity: 1;
-  color: rgba(195, 167, 65, var(--tw-text-opacity));
+  color: rgba(177, 170, 147, var(--tw-text-opacity));
   text-transform: uppercase;
   --tw-translate-x: 0;
   --tw-translate-y: 0;
@@ -18144,10 +18145,8 @@ h1 {
   --tw-scale-x: 1;
   --tw-scale-y: 1;
   transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  transform-origin: bottom left;
-  --tw-rotate: -5deg;
-  --tw-translate-y: -3%;
-  font-size: 28vw;
+  transform-origin: right;
+  font-size: 8vw;
 }
 
 h2 {
@@ -18156,7 +18155,7 @@ h2 {
   line-height: 2.5rem;
   line-height: 0.75;
   text-transform: uppercase;
-  letter-spacing: .35em;
+  letter-spacing: .05em;
 }
 
 @media (min-width: 768px){
@@ -18201,19 +18200,20 @@ footer:before {
   top: 0;
   left: 0;
   transform-origin: top left;
-  transform: translateX(0) rotate(-5deg);
+  /* transform: translateX(0) rotate(-5deg); */
+  transform: translateX(0);
   z-index: -1;
   background-color: inherit;
 }
 
 header {
   position: relative;
-  height: 90vh;
+  height: 15vh;
 }
 
 @media screen and (min-width: 1024px) {
   header {
-    height: 100vh;
+    height: 15vh;
   }
 }
 
